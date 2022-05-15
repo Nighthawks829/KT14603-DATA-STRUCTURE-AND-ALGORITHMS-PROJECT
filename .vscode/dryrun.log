@@ -1,0 +1,18 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make.exe: Entering directory `c:/Users/Nighthawks/Desktop/UMS/data structures and algorithms/Project'
+g++ -std=c++2a -Wall -fdiagnostics-color=always -pedantic-errors -Werror -Wall -Weffc++ -Wextra -Wsign-conversion -O3 -DNDEBUG -o obj/addNewStudent.o -I ./header -c src/addNewStudent.cpp
+g++ -std=c++2a -Wall -fdiagnostics-color=always -pedantic-errors -Werror -Wall -Weffc++ -Wextra -Wsign-conversion -O3 -DNDEBUG -o obj/addStudentResult.o -I ./header -c src/addStudentResult.cpp
+g++ -std=c++2a -Wall -fdiagnostics-color=always -pedantic-errors -Werror -Wall -Weffc++ -Wextra -Wsign-conversion -O3 -DNDEBUG -o obj/deleteStudent.o -I ./header -c src/deleteStudent.cpp
+g++ -std=c++2a -Wall -fdiagnostics-color=always -pedantic-errors -Werror -Wall -Weffc++ -Wextra -Wsign-conversion -O3 -DNDEBUG -o obj/getSelection.o -I ./header -c src/getSelection.cpp
+g++ -std=c++2a -Wall -fdiagnostics-color=always -pedantic-errors -Werror -Wall -Weffc++ -Wextra -Wsign-conversion -O3 -DNDEBUG -o obj/main.o -I ./header -c src/main.cpp
+g++ -std=c++2a -Wall -fdiagnostics-color=always -pedantic-errors -Werror -Wall -Weffc++ -Wextra -Wsign-conversion -O3 -DNDEBUG -o obj/mainMenu.o -I ./header -c src/mainMenu.cpp
+g++ -std=c++2a -Wall -fdiagnostics-color=always -pedantic-errors -Werror -Wall -Weffc++ -Wextra -Wsign-conversion -O3 -DNDEBUG -o obj/mainMenuDisplay.o -I ./header -c src/mainMenuDisplay.cpp
+g++ -std=c++2a -Wall -fdiagnostics-color=always -pedantic-errors -Werror -Wall -Weffc++ -Wextra -Wsign-conversion -O3 -DNDEBUG -o obj/searchStudent.o -I ./header -c src/searchStudent.cpp
+g++ -std=c++2a -Wall -fdiagnostics-color=always -pedantic-errors -Werror -Wall -Weffc++ -Wextra -Wsign-conversion -O3 -DNDEBUG -o obj/studentProfileMenu.o -I ./header -c src/studentProfileMenu.cpp
+g++ -std=c++2a -Wall -fdiagnostics-color=always -pedantic-errors -Werror -Wall -Weffc++ -Wextra -Wsign-conversion -O3 -DNDEBUG -o obj/studentProfileMenuDisplay.o -I ./header -c src/studentProfileMenuDisplay.cpp
+g++ -std=c++2a -Wall -fdiagnostics-color=always -pedantic-errors -Werror -Wall -Weffc++ -Wextra -Wsign-conversion -O3 -DNDEBUG -o obj/studentResultMenu.o -I ./header -c src/studentResultMenu.cpp
+g++ -std=c++2a -Wall -fdiagnostics-color=always -pedantic-errors -Werror -Wall -Weffc++ -Wextra -Wsign-conversion -O3 -DNDEBUG -o obj/studentResultMenuDisplay.o -I ./header -c src/studentResultMenuDisplay.cpp
+g++ -std=c++2a -Wall -fdiagnostics-color=always -pedantic-errors -Werror -Wall -Weffc++ -Wextra -Wsign-conversion -O3 -DNDEBUG -o obj/updateStudent.o -I ./header -c src/updateStudent.cpp
+g++ -std=c++2a -Wall -fdiagnostics-color=always -pedantic-errors -Werror -Wall -Weffc++ -Wextra -Wsign-conversion -O3 -DNDEBUG -o myapp obj/addNewStudent.o obj/addStudentResult.o obj/deleteStudent.o obj/getSelection.o obj/main.o obj/mainMenu.o obj/mainMenuDisplay.o obj/searchStudent.o obj/studentProfileMenu.o obj/studentProfileMenuDisplay.o obj/studentResultMenu.o obj/studentResultMenuDisplay.o obj/updateStudent.o  
+make.exe: Leaving directory `c:/Users/Nighthawks/Desktop/UMS/data structures and algorithms/Project'
+ 

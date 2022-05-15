@@ -1,0 +1,617 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-pc-mingw32
+ 
+
+# Make data base, printed on Sun May 15 13:14:44 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+CUDA_PATH_V11_6 = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6
+# makefile (from `makefile', line 17)
+OBJ = $(SRC:$(SRCDIR)/%$(EXT)=$(OBJDIR)/%.o)
+# makefile (from `makefile', line 15)
+SRC = $(wildcard $(SRCDIR)/*$(EXT))
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environme 
+nt
+PLATFORMIO_IDE = 2.4.3
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile
+CURDIR := c:/Users/Nighthawks/Desktop/UMS/data structures and algorithms/Project
+# default
+SHELL := sh.exe
+# environment
+WINDIR = C:\Windows
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+ONEDRIVE = C:\Users\Nighthawks\OneDrive - ums.edu.my
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# makefile (from `makefile', line 1)
+MAKEFILE_LIST :=  makefile
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# makefile (from `makefile', line 22)
+OBJRESDEBUG = $(RES:$(RESDIR)/%$(EXT)=$(DEBUG)/%.o)
+# makefile (from `makefile', line 13)
+DEBUG = debug
+# environment
+TMP = C:\Users\NIGHTH~1\AppData\Local\Temp
+# makefile (from `makefile', line 3)
+CXXFLAGS = -std=c++2a -Wall -fdiagnostics-color=always -pedantic-errors -Werror -Wall -Weffc++ -Wextra -Wsign-conversion -O3 -DNDEBUG
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# makefile (from `makefile', line 16)
+RES = $(wildcard $(RESDIR)/*$(EXT))
+# environment
+PROGRAMW6432 = C:\Program Files
+# makefile (from `makefile', line 29)
+DEL = del
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-955dffaf-c663-42c3-9bfb-5e867af11d09-sock
+# environment
+VSCODE_CWD = C:\Users\Nighthawks\AppData\Local\Programs\Microsoft VS Code
+# environment
+NO_PROXY = 1 
+27.0.0.1
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+ZES_ENABLE_SYSMAN = 1
+# makefile (from `makefile', line 19)
+DEP = $(OBJ:$(OBJDIR)/%.o=%.d)
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+USERPROFILE = C:\Users\Nighthawks
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+VSCODE_LOG_STACK = false
+# environment
+NUMBER_OF_PROCESSORS = 20
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# makefile (from `makefile', line 4)
+LDFLAGS = 
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives
+# environment
+NVTOOLSEXT_PATH = C:\Program Files\NVIDIA Corporation\NvToolsExt\
+# makefile (from `makefile', line 25)
+APPNAME = myapp
+# makefile (from `makefile', line 10)
+SRCDIR = src
+# automatic
+%F = $(notdir $%)
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_8732_BKPKSLBBMBCCSTWZ
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+COMPUTERNAME = DESKTOP-C2MV7TK
+# makefile (from `makefile', line 5)
+DEBUGFLAGS = -std=c++2a -Wall -g -O0 -DDEBUG
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERNAME = Nighthawks
+# environment
+PUBLIC = C:\Users\Public
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\Nighthawks\AppData\Roaming\Code\CachedData\da15b6fd3ef856477bf6f4fb29ba1b7af717770d
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# environment
+LOGONSERVER = \\DESKTOP-C2MV7TK
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = DESKTOP-C2MV7TK
+# environment
+PLATFORMIO_PATH = C:\Users\Nighthawks\.platformio\python3;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\libnvvp;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Program Files\NVIDIA Corporation\Nsight Compute 2022.1.1\;C:\Program Files\nodejs\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Git\cmd;C:\Users\Nighthawks\Anaconda3\envs\pipenv;C:\Users\Nighthawks\Anaconda3;C:\Users\Nighthawks\AppData\Local\Microsoft\WindowsApps;C:\Users\Nighthawks\AppData\Local\Programs\Microsoft VS Code\bin;C:\msys64\mingw64\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\libnvvp;C:\Users\Nighthawks\AppData\Roaming\npm;C:\Program Files\MongoDB\Server\5.0\bin;C:\Program Files (x86)\GnuWin32\bin;C:\Program Files\mongosh-1.3.1-win32-x64\bin;C:\program\flutter\bin;;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\libnvvp;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Program Files\NVIDIA Corporation\Nsight Compute 2022.1.1\;C:\Program Files\nodejs\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Git\cmd;C:\Users\Nighthawks\Anaconda3\envs\pipenv;C:\Users\Nighthawks\Anaconda3;C:\Users\Nighthawks\AppData\Local\Microsoft\WindowsApps;C:\Users\Nighthawks\AppData\Local\Programs\Microsoft VS Code\bin;C:\msys64\mingw64\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\libnvvp;C:\Users\Nighthawks\AppData\Roaming\npm;C:\Program Files\MongoDB\Server\5.0\bin;C:\Program Files (x86)\GnuWin32\bin;C:\Program Files\mongosh-1.3.1-win32-x64\bin;C:\program\flutter\bin;
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+PATH = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\libnvvp;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Program Files\NVIDIA Corporation\Nsight Compute 2022.1.1\;C:\Program Files\nodejs\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Git\cmd;C:\Users\Nighthawks\Anaconda3\envs\pipenv;C:\Users\Nighthawks\Anaconda3;C:\Users\Nighthawks\AppData\Local\Microsoft\WindowsApps;C:\Users\Nighthawks\AppData\Local\Programs\Microsoft VS Code\bin;C:\msys64\mingw64\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\libnvvp 
+;C:\Users\Nighthawks\AppData\Roaming\npm;C:\Program Files\MongoDB\Server\5.0\bin;C:\Program Files (x86)\GnuWin32\bin;C:\Program Files\mongosh-1.3.1-win32-x64\bin;C:\program\flutter\bin;
+# makefile (from `makefile', line 2)
+CC = g++
+# default
+MAKE_VERSION := 3.81
+# makefile
+.DEFAULT_GOAL := all
+# makefile (from `makefile', line 21)
+OBJDEBUG = $(SRC:$(SRCDIR)/%$(EXT)=$(DEBUG)/%.o)
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+LOCALAPPDATA = C:\Users\Nighthawks\AppData\Local
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := make.exe
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 154 Stepping 3, GenuineIntel
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\ab9acaadd519dc0286d716b9865fc6b1-1.67.1-main-sock
+# makefile (from `makefile', line 9)
+EXT = .cpp
+# environment
+HOMEPATH = \Users\Nighthawks
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+SYSTEMROOT = C:\Windows
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# makefile (from `makefile', line 12)
+RESDIR = resource
+# environment
+APPDATA = C:\Users\Nighthawks\AppData\Roaming
+# environment
+TEMP = C:\Us 
+ers\NIGHTH~1\AppData\Local\Temp
+# makefile (from `makefile', line 18)
+OBJRES = $(RES:$(RESDIR)/%$(EXT)=$(OBJDIR)/%.o)
+# environment
+COMSPEC = C:\Windows\system32\cmd.exe
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+PLATFORMIO_CALLER = vscode
+# makefile (from `makefile', line 11)
+OBJDIR = obj
+# environment
+LC_ALL = C
+# makefile (from `makefile', line 24)
+HEADER = .\header
+# automatic
+^F = $(notdir $^)
+# environment
+CUDA_PATH = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+SESSIONNAME = Console
+# environment
+PROCESSOR_REVISION = 9a03
+# makefile (from `makefile', line 26)
+APPNAMEDEBUG = myappdebug
+# environment
+MAKELEVEL := 0
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+VSCODE_PID = 8732
+# environment
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-C2MV7TK
+# variable set hash-table stats:
+# Load=116/1024=11%, Rehash=0, Collisions=21/181=12%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\bin (key C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.6/bin, mtime 1651466912): 52 files, no impossibilities.
+# C:\Users\Nighthawks\AppData\Local\Microsoft\WindowsApps (key C:/Users/Nighthawks/AppData/Local/Microsoft/WindowsApps, mtime 1652515316): 32 files, no impossibilities.
+# C:\Users\Nighthawks\Anaconda3\envs\pipenv (key C:/Users/Nighthawks/Anaconda3/envs/pipenv, mtime 1651042245): 73 files, no impossibilities.
+# C:\program\flutter\bin: could not be stat'd.
+# C:\Program Files\Microsoft SQL Server\150\Tools\Binn\ (key C:/Program Files/Microsoft SQL Server/150/Tools/Binn/, mtime 1652034448): 4 files, no impossibilities.
+# C:\Program Files\NVIDIA Corporation\Nsight Compute 2022.1.1\ (key C:/Program Files/NVIDIA Corporation/Nsight Compute 2022.1.1/, mtime 1651464784): 12 files, no impossibilities.
+# C:\Windows\System32\WindowsPowerShell\v1.0\ (key C:/Windows/System32/WindowsPowerShell/v1.0/, mtime 1622898672): 30 files, no impossibilities.
+# C:\Windows\System32\Wbem (key C:/Windows/System32/Wbem, mtime 1652385301): 154 files, no impossibilities.
+# . (key c:/Users/Nighthawks/Desktop/UMS/data structures and algorithms/Project, mtime 1652555370): 12 files, no impossibilities.
+# C:\Program Files\nodejs\ (key C:/Program Files/nodejs/, mtime 1651469008): 13 files, no impossibilities.
+# C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common (key C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common, mtime 1649987215): 10 files, no impossibilities.
+# C:\Program Files\dotnet\ (key C:/Program Files/dotnet/, mtime 1651126419): 8 files, no impossibilities.
+# resource (key c:/Users/Nighthawks/Desktop/UMS/data structures and algorithms/Project/resource, mtime 1652122288): 2 files, no impossibilities.
+# C:\Windows\System32\OpenSSH\: could not be stat'd.
+# C:\Windows (key C:/Windows, mtime 1652385704): 121 files, no impossibilities.
+# C:\Program Files\Common Files\Oracle\Java\javapath (key C:/Program Files/Common Files/Oracle/Java/javapath, mtime 1651040628): 6 files, no impossibilities.
+# C:\Users\Nighthawks\AppData\Local\Programs\Microsoft VS Code\bin (key C:/Users/Nighthawks/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1652205369): 4 files, no impossibilities.
+# C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\libnvvp (key C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.6/libnvvp, mtime 1651466810): 14 files, no impossibilities.
+# src (key c:/Users/Nighthawks/Desktop/UMS/data structures and algorithms/Project/src, mtime 1652555416): 15 files, no impossibilities.
+# C:\Users\Nighthawks\AppData\Roaming\npm (key C:/Users/Nighthawks/AppData/Roaming/npm, mtime 1651469002): 2 files, no impossibilities.
+# C:\Program Files\mongosh-1.3.1-win32-x64\bin (key C:/Program Files/mongosh-1.3.1-win32-x64/bin, mtime 1651864933): 4 files, no impossibilities.
+# C:\msys64\mingw64\bin (key C:/msys64/mingw64/bin, mtime 1651041839): 207 files, no impossibilities.
+# C:\Users\Nighthawks\Anaconda3 (key C:/Users/Nighthawks/Anaconda3, mtime 1651042132): 89 files, no impossibilities.
+# C:\Program Files\Git\cmd (key C:/Program Files/Git/cmd, mtime 1652119380): 8 files, no impossibilities.
+# C:\Windows\system32 (key C:/Windows/system32, mtime 1652444150): 2920 files, no impossibilities.
+# C:\Program Files\MongoDB\Server\5.0\bin (key C:/Program Files/MongoDB/Server/5.0/bin, mtime 1651861448): 9 files, no impossibilities.
+# C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR (key C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR, mtime 1649987225): 5 files, no impossibilities.
+# C:\Program Files (x86)\GnuWin32\bin (key C:/Program Files (x86)/GnuWin32/bin, mtime 1651860696): 5 files, no impossibilities.
+
+# 3811 files, no impossibilities in 28 directories.
+
+# Implicit Rules
+
+obj/%.o: src/%.cpp
+#  commands to execute (from `makefile', line 40):
+	$(CC) $(CXXFLAGS) -o $@ -I ./header -c $<
+	
+
+obj/%.o: resource/%.cpp
+#  commands to execute (from `makefile', line 43):
+	$(CC) $(CXXFLAGS) -o $@ -I ./header -c $<
+	
+
+debug/%.o: src/%.cpp
+#  commands to execute (from `makefile', line 64):
+	$(CC) $(DEBUGFLAGS) -o $@ -I ./header -c $<
+	
+
+debug/%.o: resource/%.cpp
+#  commands to execute (from `makefile', line 67):
+	$(CC) $(DEBUGFLAGS) -o $@ -I ./header -c $<
+	
+
+# 4 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+# Not a target:
+debug/main.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+myapp: obj/addNewStudent.o obj/addStudentResult.o obj/deleteStudent.o obj/getSelection.o obj/main.o obj/mainMenu.o obj/mainMenuDisplay.o obj/searchStudent.o obj/studentProfileMenu.o obj/studentProfileMenuDisplay.o obj/studentResultMenu.o obj/studentResultMenuDisplay.o obj/updateStudent.o
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/4=0%
+#  commands to execute (from `makefile', line 37):
+	$(CC) $(CXXFLAGS) -o $@ $^ $(LDFLAGS) 
+	
+
+# Not a target:
+obj/updateStudent.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+obj/mainMenu.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: myapp
+#  Command-line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/4=0%
+
+# Not a target:
+src/addStudentResult.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-15 03:37:31
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+.PHONY: clean cleandebug rebuild
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+debug/studentResultMenuDisplay.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+obj/studentProfileMenuDisplay.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+debug/getSelection.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+obj/main.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/addNewStudent.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-15 02:29:59
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+rebuild: clean all
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+debug: myappdebug
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-14 21:23:22
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+debug/mainMenuDisplay.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+debug/searchStudent.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+obj/studentResultMenuDisplay.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+obj/getSelection.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+debug/addStudentResult.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+debug/studentProfileMenu.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+obj/mainMenuDisplay.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+debug/addNewStudent.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+cleandebug:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 52):
+	$(DEL) .\debug\*.o .\$(APPNAMEDEBUG).exe 
+	
+
+# Not a target:
+obj/searchStudent.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+debug/deleteStudent.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj/addStudentResult.o: src/addStudentResult.cpp
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `addStudentResult'
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := obj/addStudentResult.o
+# automatic
+# % := 
+# automatic
+# * := addStudentResult
+# automatic
+# + := src/addStudentResult.cpp
+# automatic
+# | := 
+# automatic
+# < := src/addStudentResult.cpp
+# automatic
+# ^ := src/addStudentResult.cpp
+# automatic
+# ? := src/addStudentResult.cpp
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/14=7%
+#  commands to execute (from `makefile', line 40):
+	$(CC) $(CXXFLAGS) -o $@ -I ./header -c $<
+	
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 48):
+	$(DEL) .\obj\*.o .\$(APPNAME).exe 
+	
+
+# Not a target:
+debug/studentResultMenu.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+obj/studentProfileMenu.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj/addNewStudent.o: src/addNewStudent.cpp
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `addNewStudent'
+#  Last modified 2022-05-15 02:30:19
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `makefile', line 40):
+	$(CC) $(CXXFLAGS) -o $@ -I ./header -c $<
+	
+
+# Not a target:
+obj/deleteStudent.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+debug/updateStudent.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+debug/mainMenu.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+obj/studentResultMenu.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+debug/studentProfileMenuDisplay.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+myappdebug: debug/addNewStudent.o debug/addStudentResult.o debug/deleteStudent.o debug/getSelection.o debug/main.o debug/mainMenu.o debug/mainMenuDisplay.o debug/searchStudent.o debug/studentProfileMenu.o debug/studentProfileMenuDisplay.o debug/studentResultMenu.o debug/studentResultMenuDisplay.o debug/updateStudent.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 61):
+	$(CC) $(DEBUGFLAGS) -o $@ $^ $(LDFLAGS) 
+	
+
+# files hash-table stats:
+# Load=39/1024=4%, Rehash=0, Collisions=0/92=0%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Sun May 15 13:14:44 2022
+
+ 
