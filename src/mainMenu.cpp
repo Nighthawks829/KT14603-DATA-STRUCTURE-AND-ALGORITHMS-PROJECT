@@ -1,4 +1,7 @@
 #include <iostream>
+#include "Student.h"
+#include "StudentList.h"
+#include "Course.h"
 
 void mainMenuDisplay();
 int getSelection(int numberOfChoice);

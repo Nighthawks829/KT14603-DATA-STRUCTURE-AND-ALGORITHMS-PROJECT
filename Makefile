@@ -2,7 +2,7 @@
 CC = g++
 CXXFLAGS = -std=c++2a -Wall -fdiagnostics-color=always -pedantic-errors -Werror -Wall -Weffc++ -Wextra -Wsign-conversion -O3 -DNDEBUG
 LDFLAGS = 
-DEBUGFLAGS = -std=c++2a -Wall -g -O0 -DDEBUG
+DEBUGFLAGS = -std=c++2a -Wall -fdiagnostics-color=always -pedantic-errors -Werror -Wall -Weffc++ -Wextra -Wsign-conversion -g -O0 -DDEBUG
 #Path
 OBJ = .\obj
 

@@ -58,5 +58,12 @@
         "random": "cpp",
         "string_view": "cpp",
         "numbers": "cpp"
-    }
+    },
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "c:\\Users\\Nighthawks\\Desktop\\UMS\\data structures and algorithms\\Project",
+            "binaryPath": "c:\\Users\\Nighthawks\\Desktop\\UMS\\data structures and algorithms\\Project\\myappdebug",
+            "binaryArgs": []
+        }
+    ]
 }
