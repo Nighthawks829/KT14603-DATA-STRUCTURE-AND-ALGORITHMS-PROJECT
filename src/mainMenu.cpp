@@ -1,19 +1,18 @@
 #include <iostream>
-#include "Student.h"
+
 #include "StudentList.h"
-#include "Course.h"
 
 void mainMenuDisplay();
 int getSelection(int numberOfChoice);
 
-void studentProfileMenu();
+void studentProfileMenu(StudentList *studentList);
 void studentResultMenu();
 void statisticsOfStudentMenu();
 void statisticsOfCourseMenu();
 
-void mainMenu()
+void mainMenu(StudentList *studentList)
 {
-    // StudentList *studentList=new StudentList();
+    
     enum Operation
     {
         studentProfileMenuOperation = 1,
@@ -29,12 +28,11 @@ void mainMenu()
     {
         // system("CLS");
         mainMenuDisplay();
-        selection = getSelection(maxOperation-1);
+        selection = getSelection(maxOperation - 1);
         switch (selection)
         {
         case studentProfileMenuOperation:
-            studentProfileMenu();
-            // studentProfileMenu(studentList);
+            studentProfileMenu(studentList);
             break;
 
         case studentResultMenuOperation:

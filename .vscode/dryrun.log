@@ -5,21 +5,31 @@ g++ -std=c++2a -Wall -fdiagnostics-color=always -pedantic-errors -Werror -Wall -
 g++ -std=c++2a -Wall -fdiagnostics-color=always -pedantic-errors -Werror -Wall -Weffc++ -Wextra -Wsign-conversion -g -O0 -DDEBUG -o debug/cgpaAccordingToFaculty.o -I ./header -c src/cgpaAccordingToFaculty.cpp
 g++ -std=c++2a -Wall -fdiagnostics-color=always -pedantic-errors -Werror -Wall -Weffc++ -Wextra -Wsign-conversion -g -O0 -DDEBUG -o debug/cgpaAccordingToProgramme.o -I ./header -c src/cgpaAccordingToProgramme.cpp
 g++ -std=c++2a -Wall -fdiagnostics-color=always -pedantic-errors -Werror -Wall -Weffc++ -Wextra -Wsign-conversion -g -O0 -DDEBUG -o debug/cgpaAccordingToSemester.o -I ./header -c src/cgpaAccordingToSemester.cpp
+ 
 g++ -std=c++2a -Wall -fdiagnostics-color=always -pedantic-errors -Werror -Wall -Weffc++ -Wextra -Wsign-conversion -g -O0 -DDEBUG -o debug/deleteStudent.o -I ./header -c src/deleteStudent.cpp
 g++ -std=c++2a -Wall -fdiagnostics-color=always -pedantic-errors -Werror -Wall -Weffc++ -Wextra -Wsign-conversion -g -O0 -DDEBUG -o debug/deleteStudentResult.o -I ./header -c src/deleteStudentResult.cpp
 g++ -std=c++2a -Wall -fdiagnostics-color=always -pedantic-errors -Werror -Wall -Weffc++ -Wextra -Wsign-conversion -g -O0 -DDEBUG -o debug/getSelection.o -I ./header -c src/getSelection.cpp
 g++ -std=c++2a -Wall -fdiagnostics-color=always -pedantic-errors -Werror -Wall -Weffc++ -Wextra -Wsign-conversion -g -O0 -DDEBUG -o debug/main.o -I ./header -c src/main.cpp
 g++ -std=c++2a -Wall -fdiagnostics-color=always -pedantic-errors -Werror -Wall -Weffc++ -Wextra -Wsign-conversion -g -O0 -DDEBUG -o debug/mainMenu.o -I ./header -c src/mainMenu.cpp
+ 
 g++ -std=c++2a -Wall -fdiagnostics-color=always -pedantic-errors -Werror -Wall -Weffc++ -Wextra -Wsign-conversion -g -O0 -DDEBUG -o debug/mainMenuDisplay.o -I ./header -c src/mainMenuDisplay.cpp
+ 
 g++ -std=c++2a -Wall -fdiagnostics-color=always -pedantic-errors -Werror -Wall -Weffc++ -Wextra -Wsign-conversion -g -O0 -DDEBUG -o debug/searchStudent.o -I ./header -c src/searchStudent.cpp
+ 
 g++ -std=c++2a -Wall -fdiagnostics-color=always -pedantic-errors -Werror -Wall -Weffc++ -Wextra -Wsign-conversion -g -O0 -DDEBUG -o debug/statisticsOfCourseMenu.o -I ./header -c src/statisticsOfCourseMenu.cpp
+ 
 g++ -std=c++2a -Wall -fdiagnostics-color=always -pedantic-errors -Werror -Wall -Weffc++ -Wextra -Wsign-conversion -g -O0 -DDEBUG -o debug/statisticsOfCourseMenuDisplay.o -I ./header -c src/statisticsOfCourseMenuDisplay.cpp
+ 
 g++ -std=c++2a -Wall -fdiagnostics-color=always -pedantic-errors -Werror -Wall -Weffc++ -Wextra -Wsign-conversion -g -O0 -DDEBUG -o debug/statisticsOfStudentMenu.o -I ./header -c src/statisticsOfStudentMenu.cpp
+ 
 g++ -std=c++2a -Wall -fdiagnostics-color=always -pedantic-errors -Werror -Wall -Weffc++ -Wextra -Wsign-conversion -g -O0 -DDEBUG -o debug/statisticsOfStudentMenuDisplay.o -I ./header -c src/statisticsOfStudentMenuDisplay.cpp
+ 
 g++ -std=c++2a -Wall -fdiagnostics-color=always -pedantic-errors -Werror -Wall -Weffc++ -Wextra -Wsign-conversion -g -O0 -DDEBUG -o debug/studentProfileMenu.o -I ./header -c src/studentProfileMenu.cpp
+ 
 g++ -std=c++2a -Wall -fdiagnostics-color=always -pedantic-errors -Werror -Wall -Weffc++ -Wextra -Wsign-conversion -g -O0 -DDEBUG -o debug/studentProfileMenuDisplay.o -I ./header -c src/studentProfileMenuDisplay.cpp
 g++ -std=c++2a -Wall -fdiagnostics-color=always -pedantic-errors -Werror -Wall -Weffc++ -Wextra -Wsign-conversion -g -O0 -DDEBUG -o debug/studentResultMenu.o -I ./header -c src/studentResultMenu.cpp
 g++ -std=c++2a -Wall -fdiagnostics-color=always -pedantic-errors -Werror -Wall -Weffc++ -Wextra -Wsign-conversion -g -O0 -DDEBUG -o debug/studentResultMenuDisplay.o -I ./header -c src/studentResultMenuDisplay.cpp
+ 
 g++ -std=c++2a -Wall -fdiagnostics-color=always -pedantic-errors -Werror -Wall -Weffc++ -Wextra -Wsign-conversion -g -O0 -DDEBUG -o debug/totalNumberOfStudentAccordingToFaculty.o -I ./header -c src/totalNumberOfStudentAccordingToFaculty.cpp
 g++ -std=c++2a -Wall -fdiagnostics-color=always -pedantic-errors -Werror -Wall -Weffc++ -Wextra -Wsign-conversion -g -O0 -DDEBUG -o debug/totalNumberOfStudentAccordingToProgramme.o -I ./header -c src/totalNumberOfStudentAccordingToProgramme.cpp
 g++ -std=c++2a -Wall -fdiagnostics-color=always -pedantic-errors -Werror -Wall -Weffc++ -Wextra -Wsign-conversion -g -O0 -DDEBUG -o debug/totalNumberOfStudentAccordingToSemester.o -I ./header -c src/totalNumberOfStudentAccordingToSemester.cpp

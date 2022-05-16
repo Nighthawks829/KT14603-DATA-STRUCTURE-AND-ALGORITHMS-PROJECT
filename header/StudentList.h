@@ -4,7 +4,7 @@
 #include <iostream>
 #include <string>
 
-// #include "Student.h"
+#include "Student.h"
 // #include "Course.h"
 // #include "CourseList.h"
 

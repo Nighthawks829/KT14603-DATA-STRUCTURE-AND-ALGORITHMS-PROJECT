@@ -1,16 +1,18 @@
 #include <iostream>
 #include <limits>
 
+#include "StudentList.h"
+
 void studentProfileMenuDisplay();
-void updateStudent();
-void deleteStudent();
-void searchStudent();
+void addNewStudent(StudentList *studentList);
+void updateStudent(StudentList *studentList);
+void deleteStudent(StudentList *studentList);
+void searchStudent(StudentList *studentList);
 
 int getSelection(int numberOfChoice);
 
-void addNewStudent();
 
-void studentProfileMenu()
+void studentProfileMenu(StudentList *studentList)
 {
     enum Operation
     {
@@ -29,19 +31,19 @@ void studentProfileMenu()
         switch (selection)
         {
         case addNewStudentOperation:
-            addNewStudent();
+            addNewStudent(studentList);
             break;
 
         case updateStudentOperation:
-            updateStudent();
+            updateStudent(studentList);
             break;
 
         case deleteStudentOperation:
-            deleteStudent();
+            deleteStudent(studentList);
             break;
 
         case searchStudentOperation:
-            searchStudent();
+            searchStudent(studentList);
             break;
         default:;
         }

@@ -12,8 +12,8 @@ void StudentList::print()
         std::cout << head->getFirstName() << '\n';
         std::cout << head->getLastName() << '\n';
         std::cout << head->getFaculty() << '\n';
-        std::cout << head->getProgramme() << "\n\n";
-        std::cout << head->getSemester();
+        std::cout << head->getProgramme() << "\n";
+        std::cout << head->getSemester()<<"\n\n";
         head = head->Next();
     }
 }

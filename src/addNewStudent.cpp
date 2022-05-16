@@ -2,7 +2,10 @@
 #include <string>
 #include <limits>
 
-void addNewStudent()
+#include "StudentList.h"
+#include "CourseList.h"
+
+void addNewStudent(StudentList *studentList)
 {
     // system("CLS");
     std::cout << "\t\t============================================================\n";
@@ -15,41 +18,48 @@ void addNewStudent()
     std::string id;
     std::cin >> id;
 
-    // Student studentNode=studentList->searchNode(id);
-    // if(node==NULL)
-    // student *newStudent=new Student();
-    // newStudent->setId(id);
+    Student *studentNode = studentList->searchNode(id);
 
-    std::cout << "First Name: ";
-    std::string firstName;
-    std::getline(std::cin >> std::ws, firstName);
-    // newStudent->setFirstName(firstName);
+    if (studentNode == NULL)
+    {
+        Student *newStudent = new Student();
+        newStudent->setId(id);
+        std::cout << "First Name: ";
+        std::string firstName;
+        std::getline(std::cin >> std::ws, firstName);
+        newStudent->setFirstName(firstName);
 
-    std::cout << "Last Name: ";
-    std::string lastName{};
-    std::getline(std::cin >> std::ws, lastName);
-    // newStudent->setLastName(lastName);
+        std::cout << "Last Name: ";
+        std::string lastName{};
+        std::getline(std::cin >> std::ws, lastName);
+        newStudent->setLastName(lastName);
 
-    std::cout << "Faculty: ";
-    std::string faculty;
-    std::getline(std::cin >> std::ws, faculty);
-    // newStudent->setFaculty(faculty);
+        std::cout << "Faculty: ";
+        std::string faculty;
+        std::getline(std::cin >> std::ws, faculty);
+        newStudent->setFaculty(faculty);
 
-    std::cout << "Programme: ";
-    std::string programme;
-    std::getline(std::cin >> std::ws, programme);
-    // newStudent->setProgramme(programme);
+        std::cout << "Programme: ";
+        std::string programme;
+        std::getline(std::cin >> std::ws, programme);
+        newStudent->setProgramme(programme);
 
-    // studentList->add(newStudent);
+        std::cout << "Semester: ";
+        int semester;
+        std::cin >> semester;
+        newStudent->setSemester(semester);
 
-    std::cout << "Successfully Added New Student\n";
-
-    // else
-    // {
-    //     std::cout << "Error! Staff " << id << " already exist in the list\n";
-    //     std::cin.clear();
-    //     std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-    // }
+        CourseList *courseList = new CourseList();
+        newStudent->setCourseList(courseList);
+        studentList->addNode(newStudent);
+        std::cout << "Successfully Added New Student\n";
+    }
+    else
+    {
+        std::cout << "Error! Student " << id << " already exist in the list\n";
+        std::cin.clear();
+        std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+    }
     std::cout << "Press Enter to continue\n";
     std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 }

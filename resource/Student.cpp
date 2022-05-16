@@ -2,6 +2,7 @@
 #include <string>
 
 #include "Student.h"
+#include "Course.h"
 
 void Student::setNext(Student *next)
 {
@@ -48,6 +49,11 @@ void Student::setSemester(int semester)
     m_semester = semester;
 }
 
+void Student::setCourseList(CourseList *courseList)
+{
+    m_courseList = courseList;
+}
+
 std::string Student::getId()
 {
     return m_id;
@@ -81,4 +87,17 @@ int Student::getSemester()
 CourseList *Student::getCourseList()
 {
     return m_courseList;
+}
+
+void Student::showResult()
+{
+    Course *tmp = m_courseList->head;
+    std::cout << "\nShow Student Result:\n";
+    int i{1};
+    while (tmp != NULL)
+    {
+        std::cout << i << ") " << tmp->getId() << '\t' << tmp->getName() << '\t' << tmp->getCgpa() << '\n';
+        tmp->Next();
+    }
+    std::cout << '\n';
 }
