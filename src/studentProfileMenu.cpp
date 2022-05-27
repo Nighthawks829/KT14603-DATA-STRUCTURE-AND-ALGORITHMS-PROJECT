@@ -2,17 +2,20 @@
 #include <limits>
 
 #include "StudentList.h"
+#include "CourseList.h"
 
+// Function to get user input
+int getSelection(int numberOfChoice);
 void studentProfileMenuDisplay();
+
 void addNewStudent(StudentList *studentList);
 void updateStudent(StudentList *studentList);
 void deleteStudent(StudentList *studentList);
-void searchStudent(StudentList *studentList);
+void searchStudent(StudentList *studentList, CourseList *courseList);
 
-int getSelection(int numberOfChoice);
-
-
-void studentProfileMenu(StudentList *studentList)
+// 1. Display menu
+// 2. User input choose operation
+void studentProfileMenu(StudentList *studentList, CourseList *courseList)
 {
     enum Operation
     {
@@ -26,6 +29,7 @@ void studentProfileMenu(StudentList *studentList)
     int selection{};
     while (selection != exitMenu)
     {
+        // system("CLS");
         studentProfileMenuDisplay();
         selection = getSelection(maxOperation - 1);
         switch (selection)
@@ -43,7 +47,7 @@ void studentProfileMenu(StudentList *studentList)
             break;
 
         case searchStudentOperation:
-            searchStudent(studentList);
+            searchStudent(studentList, courseList);
             break;
         default:;
         }

@@ -3,8 +3,14 @@
 #include <limits>
 
 #include "StudentList.h"
+#include "CourseList.h"
 
-void searchStudent(StudentList *studentList)
+// 1. User input student id
+// 2. Search the node inside the studentList to check the existence of the student
+// 3. If the node exist print the information of the return node
+// 4. Print the result of student from the courseList
+
+void searchStudent(StudentList *studentList, CourseList *courseList)
 {
     // system("CLS");
     std::cout << "\t\t============================================================\n";
@@ -20,15 +26,17 @@ void searchStudent(StudentList *studentList)
     if (studentNode != NULL)
     {
         std::cout << "\nStudent Details:\n";
-        std::cout << "ID: " << studentNode->getId() << '\n';
+        std::cout << "ID: " << studentId << '\n';
         std::cout << "First Name: " << studentNode->getFirstName() << '\n';
         std::cout << "Last Name: " << studentNode->getLastName() << '\n';
 
         std::cout << "Faculty: " << studentNode->getFaculty() << '\n';
         std::cout << "Programme: " << studentNode->getProgramme() << '\n';
+        std::cout << "Year: " << studentNode->getYear() << '\n';
         std::cout << "Semester: " << studentNode->getSemester() << '\n';
 
-        studentNode->showResult();
+        courseList->print(studentId);
+        // courseList->printResult(studentList);
         std::cout << "\n\n";
     }
 

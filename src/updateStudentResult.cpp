@@ -9,33 +9,38 @@
 // 2. Search the student node inside the studentList to check the existence of the student
 // 3. User input course id
 // 4. Search the course node inside the courseList to check the existence of the course in this student
-// 5. Delete the return cousre node from the course list
+// 5. User input new cgpa result in the return course node
+// 6. Update the course node cgpa result
 
-void deleteStudentResult(StudentList *studentList, CourseList *courseList)
+void updateStudentResult(StudentList *studentList, CourseList *courseList)
 {
     // system("CLS");
     std::cout << "\t\t============================================================\n";
     std::cout << "\t\t\tStudent Results Management System\n";
-    std::cout << "\t\t\t\t\tDelete Student Result\n";
+    std::cout << "\t\t\t\tUpdate Student Result\n";
     std::cout << "\t\t============================================================\n\n";
-    std::cout << "Student ID: ";
+
+    std::cout << "Enter Student ID: ";
     std::string studentId;
     std::cin >> studentId;
-
     Student *studentNode = studentList->searchNode(studentId);
-    courseList->print(studentId);
 
     if (studentNode != NULL)
     {
-        // studentList->deleteNode(studentId);
-        std::cout << "Delete Course ID: ";
+        courseList->print(studentId);
+        std::cout << "Course ID: ";
         std::string courseId;
         std::cin >> courseId;
         Course *courseNode = courseList->searchNode(courseId);
+
         if (courseNode != NULL)
         {
-            courseList->deleteNode(courseId);
-            std::cout << "Successfully Delete Result " + courseId << '\n';
+            std::cout << "New CGPA: ";
+            double newCgpa{};
+            std::cin >> newCgpa;
+            courseNode->setCgpa(newCgpa);
+
+            std::cout << "Successfully Updated Result Student " + studentId << '\n';
         }
         else
         {
@@ -46,8 +51,8 @@ void deleteStudentResult(StudentList *studentList, CourseList *courseList)
     {
         std::cout << "Not Recorded Student\n";
     }
-    std::cout << "Press Enter to continue\n";
+
     std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+    std::cout << "Press Enter to continue\n";
     std::cin.get();
-    courseList->print(studentId);
 }

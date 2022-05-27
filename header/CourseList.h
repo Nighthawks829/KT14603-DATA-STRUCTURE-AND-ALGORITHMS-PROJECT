@@ -11,10 +11,11 @@ class CourseList
 public:
     Course *head;
 
-    void print();
+    void print(std::string studentId);
     void addNode(Course *node);
     void deleteNode(std::string key);
     Course *searchNode(std::string key);
+
 };
 
 #endif

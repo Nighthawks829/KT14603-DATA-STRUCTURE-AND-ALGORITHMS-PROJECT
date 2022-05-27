@@ -4,6 +4,10 @@
 
 #include "StudentList.h"
 
+// 1. User input student id
+// 2. Search the node inside the studentList to check the existence of the student
+// 3. If the node exist delete the node from the list
+
 void deleteStudent(StudentList *studentList)
 {
     // system("CLS");

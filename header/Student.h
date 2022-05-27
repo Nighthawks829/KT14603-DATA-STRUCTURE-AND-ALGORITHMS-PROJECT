@@ -16,39 +16,44 @@ private:
     std::string m_lastName{};
     std::string m_faculty{};
     std::string m_programme{};
+    int m_year{};
     int m_semester{};
+    // CourseList *m_courseList = NULL;
     Student *m_next = NULL;
-    CourseList *m_courseList = new CourseList();
+    static int inline idNumber{1};
 
 public:
     Student() {}
-    Student(std::string id, std::string first, std::string last, std::string faculty, std::string programme, int semester)
-        : m_id{id}, m_firstName{first}, m_lastName{last}, m_faculty{faculty}, m_programme{programme}, m_semester{semester}
+    Student(std::string firstName, std::string lastName, std::string faculty, std::string programme, int year, int semester)
+        : m_firstName{firstName}, m_lastName{lastName}, m_faculty{faculty}, m_programme{programme}, m_year{year}, m_semester{semester}
     {
-        // m_courseList = new CourseList();
+        m_id = faculty + std::to_string(year) + std::to_string(1000 + idNumber);
+        idNumber += 1;
     }
 
     void setNext(Student *next);
     std::string Data();
     Student *Next();
 
-    void setId(std::string id);
+    // void setId(std::string id);
     void setFirstName(std::string firstName);
     void setLastName(std::string lastName);
     void setFaculty(std::string faculty);
     void setProgramme(std::string programme);
+    void setYear(int year);
     void setSemester(int semester);
-    void setCourseList(CourseList *courseList);
+    // void setCourseList(CourseList *courseList);
 
     std::string getId();
     std::string getFirstName();
     std::string getLastName();
     std::string getFaculty();
     std::string getProgramme();
+    int getYear();
     int getSemester();
-    CourseList *getCourseList();
+    // CourseList *getCourseList();
 
-    void showResult();
+    void addCourse(Course *course);
 
     Student(const Student &) = delete;            // copy constructor
     Student &operator=(const Student &) = delete; // override

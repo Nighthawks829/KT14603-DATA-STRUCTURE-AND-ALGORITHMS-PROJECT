@@ -6,15 +6,17 @@
 
 void StudentList::print()
 {
-    while (head != NULL)
+    Student *tmp = head;
+    while (tmp != NULL)
     {
-        std::cout << head->getId() << '\n';
-        std::cout << head->getFirstName() << '\n';
-        std::cout << head->getLastName() << '\n';
-        std::cout << head->getFaculty() << '\n';
-        std::cout << head->getProgramme() << "\n";
-        std::cout << head->getSemester()<<"\n\n";
-        head = head->Next();
+        std::cout << tmp->getId() << '\n';
+        std::cout << tmp->getFirstName() << '\n';
+        std::cout << tmp->getLastName() << '\n';
+        std::cout << tmp->getFaculty() << '\n';
+        std::cout << tmp->getProgramme() << "\n";
+        std::cout << tmp->getYear() << '\n';
+        std::cout << tmp->getSemester() << "\n\n";
+        tmp = tmp->Next();
     }
 }
 
@@ -84,4 +86,34 @@ Student *StudentList::searchNode(std::string key)
         tmp = tmp->Next();
     }
     return NULL;
+}
+
+int StudentList::numberOfStudentAccordingToFaculty(std::string facultyName, int semester)
+{
+    int numberStudent{0};
+    Student *tmp = head;
+    while (tmp != NULL)
+    {
+        if (tmp->getFaculty() == facultyName && tmp->getSemester() == semester)
+        {
+            numberStudent += 1;
+        }
+        tmp = tmp->Next();
+    }
+    return numberStudent;
+}
+
+int StudentList::totalStudentAccordingToProgramme(std::string facultyName, std::string programmeId, int semester)
+{
+    int numberStudent{0};
+    Student *tmp = head;
+    while (tmp != NULL)
+    {
+        if (tmp->getFaculty() == facultyName && tmp->getSemester() == semester && tmp->getProgramme() == programmeId)
+        {
+            numberStudent += 1;
+        }
+        tmp = tmp->Next();
+    }
+    return numberStudent;
 }

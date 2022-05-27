@@ -8,7 +8,7 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # This program built for i386-pc-mingw32
  
 
-# Make data base, printed on Mon May 16 20:21:59 2022
+# Make data base, printed on Fri May 27 16:03:11 2022
 
 # Variables
 
@@ -28,9 +28,6 @@ MAKEFLAGS = Rrqp
 VSCODE_LOG_NATIVE = false
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
-# environme 
-nt
-PLATFORMIO_IDE = 2.4.3
 # automatic
 @D = $(patsubst %/,%,$(dir $@))
 # environment
@@ -50,9 +47,12 @@ VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupp
 # environment
 ONEDRIVE = C:\Users\Nighthawks\OneDrive - ums.edu.my
 # environment
-PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VB 
+E;.JS;.JSE;.WSF;.WSH;.MSC
 # makefile (from `makefile', line 1)
 MAKEFILE_LIST :=  makefile
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
 # makefile (from `makefile', line 22)
 OBJRESDEBUG = $(RES:$(RESDIR)/%$(EXT)=$(DEBUG)/%.o)
 # makefile (from `makefile', line 13)
@@ -72,11 +72,11 @@ DEL = del
 # environment
 PROGRAMDATA = C:\ProgramData
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-094a79bc-795d-49b0-969e-7c5ffd94bc19-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-64e6e2bf-5ebb-4f14-b37c-fcc41d7530d1-sock
 # environment
 VSCODE_CWD = C:\Users\Nighthawks\AppData\Local\Programs\Microsoft VS Code
 # environment
-NO_PROXY = 127.0.0.1
+PATH = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\libnvvp;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Program Files\NVIDIA Corporation\Nsight Compute 2022.1.1\;C:\Program Files\nodejs\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Git\cmd;C:\Users\Nighthawks\Anaconda3\envs\pipenv;C:\Users\Nighthawks\Anaconda3;C:\Users\Nighthawks\AppData\Local\Microsoft\WindowsApps;C:\Users\Nighthawks\AppData\Local\Programs\Microsoft VS Code\bin;C:\msys64\mingw64\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\libnvvp;C:\Users\Nighthawks\AppData\Roaming\npm;C:\Program Files\MongoDB\Server\5.0\bin;C:\Program Files (x86)\GnuWin32\bin;C:\Program Files\mongosh-1.3.1-win32-x64\bin;C:\program\flutter\bin;C:\Users\Nighthawks\.dotnet\tools;C:\program1\opencv\build\x64\vc15\bin;C:\program1\opencv\build\x64\vc15\lib;C:\Program Files\CMake\bin;
 # environment
 COMMONPROGRAMW6432 = C:\Program Files\Common Files
 # environment
@@ -99,17 +99,14 @@ ELECTRON_RUN_AS_NODE = 1
 LDFLAGS = 
 # default
 .FEATURES := target-specific order-only second-expansion else-if archives
-# 
- environment
+# environment
 NVTOOLSEXT_PATH = C:\Program Files\NVIDIA Corporation\NvToolsExt\
-# makefile (from `makefile', line 25)
-APPNAME = myapp
 # makefile (from `makefile', line 10)
 SRCDIR = src
 # automatic
 %F = $(notdir $%)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_9128_QALDYRHMQAYCTCKC
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_15996_SMSUAFYPAAGEIRDQ
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
@@ -129,7 +126,7 @@ PUBLIC = C:\Users\Public
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
-VSCODE_CODE_CACHE_PATH = C:\Users\Nighthawks\AppData\Roaming\Code\CachedData\da15b6fd3ef856477bf6f4fb29ba1b7af717770d
+VSCODE_CODE_CACHE_PATH = C:\Users\Nighthawks\AppData\Roaming\Code\CachedData\c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
 # environment
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # environment
@@ -140,14 +137,13 @@ LOGONSERVER = \\DESKTOP-C2MV7TK
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # environment
 USERDOMAIN = DESKTOP-C2MV7TK
-# environment
-PLATFORMIO_PATH = C:\Users\Nighthawks\.platformio\python3;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\libnvvp;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Program Files\NVIDIA Corporation\Nsight Compute 2022.1.1\;C:\Program Files\nodejs\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Git\cmd;C:\Users\Nighthawks\Anaconda3\envs\pipenv;C:\Users\Nighthawks\Anaconda3;C:\Users\Nighthawks\AppData\Local\Microsoft\WindowsApps;C:\Users\Nighthawks\AppData\Local\Programs\Microsoft VS Code\bin;C:\msys64\mingw64\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\libnvvp;C:\Users\Nighthawks\AppData\Roaming\npm;C:\Program Files\MongoDB\Server\5.0\bin;C:\Program Files (x86)\GnuWin32\bin;C:\Program Files\mongosh-1.3.1-win32-x64\bin;C:\program\flutter\bin;C:\Users\Nighthawks\.dotnet\tools;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\libnvvp;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Program Files\NVIDIA Corporation\Nsight Compute 2022.1.1\;C:\Program Files\nodejs\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Git\cmd;C:\Users\Nighthawks\Anaconda3\envs\pipenv;C:\Users\Nighthawks\Anaconda3;C:\Users\Nighthawks\AppData\Local\Microsoft\WindowsApps;C:\Users\Nighthawks\AppData\Local\Programs\Microsoft VS Code\bin;C:\msys64\mingw64\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\libnvvp;C:\Users\Nighthawks\AppData\Roaming\npm;C:\Program Files\MongoDB\Server\5.0\bin;C:\Program Files (x86)\GnuWin32\bin;C:\Program Files\mongosh-1.3.1-win32-x64\bin;C:\program\flutter\bin;C:\Users\Nighthawks\.dotnet\tools
 # default
 MAKE = $(MAKE_COMMAND)
 # default
-MAKECMDGOALS := all
-# environment
-PATH = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\libnvvp;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Program Files\NVIDIA Corporation\Nsight Compute 2022.1.1\;C:\Program Files\nodejs\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Git\cmd;C:\Users\Nighthawks\Anaconda3\envs\pipenv;C:\Users\Nighthawks\Anaconda3;C:\Users\Nighthawks\AppData\Local\Microsoft\WindowsApps;C:\Users\Nighthawks\AppData\Local\Programs\Microsoft VS Code\bin;C:\msys64\mingw64\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\libnvvp;C:\Users\Nighthawks\AppData\Roaming\npm;C:\Program Files\MongoDB\Server\5.0\bin;C:\Program Files (x86)\GnuWin32\bin;C:\Program Files\mongosh-1.3.1-win32-x64\bin;C:\program\flutter\bin;C:\Users\Nighthawks\.dotnet\tools
+MAKECMDGO 
+ALS := all
+# makefile (from `makefile', line 25)
+APPNAME = myapp
 # makefile (from `makefile', line 2)
 CC = g++
 # default
@@ -155,8 +151,7 @@ MAKE_VERSION := 3.81
 # makefile
 .DEFAULT_GOAL := all
 # makefile (from `makefile', line 21)
-OBJDEBUG = $(SRC:$(SRCDIR)/%$(EXT)=$(DEBUG) 
-/%.o)
+OBJDEBUG = $(SRC:$(SRCDIR)/%$(EXT)=$(DEBUG)/%.o)
 # environment
 PROGRAMFILES(X86) = C:\Program Files (x86)
 # automatic
@@ -174,12 +169,11 @@ PROCESSOR_ARCHITEW6432 = AMD64
 # automatic
 *F = $(notdir $*)
 # environment
-PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 154 Stepping 3, GenuineI 
-ntel
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 154 Stepping 3, GenuineIntel
 # environment
 OS = Windows_NT
 # environment
-VSCODE_IPC_HOOK = \\.\pipe\ab9acaadd519dc0286d716b9865fc6b1-1.67.1-main-sock
+VSCODE_IPC_HOOK = \\.\pipe\ab9acaadd519dc0286d716b9865fc6b1-1.67.2-main-sock
 # makefile (from `makefile', line 9)
 EXT = .cpp
 # environment
@@ -206,20 +200,18 @@ APPDATA = C:\Users\Nighthawks\AppData\Roaming
 TEMP = C:\Users\NIGHTH~1\AppData\Local\Temp
 # makefile (from `makefile', line 18)
 OBJRES = $(RES:$(RESDIR)/%$(EXT)=$(OBJDIR)/%.o)
-# environment
+# e 
+nvironment
 COMSPEC = C:\Windows\system32\cmd.exe
 # default
 MAKEFILES := 
 # automatic
 <F = $(notdir $<)
-# environment
-PLATFORMIO_CALLER = vscode
 # makefile (from `makefile', line 11)
 OBJDIR = obj
 # environment
 LC_ALL = C
-# makefile (from `makefile', line 2 
-4)
+# makefile (from `makefile', line 24)
 HEADER = .\header
 # automatic
 ^F = $(notdir $^)
@@ -242,11 +234,13 @@ LANG = C
 # environment
 PROCESSOR_LEVEL = 6
 # environment
-VSCODE_PID = 9128
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+VSCODE_PID = 15996
 # environment
 USERDOMAIN_ROAMINGPROFILE = DESKTOP-C2MV7TK
 # variable set hash-table stats:
-# Load=114/1024=11%, Rehash=0, Collisions=21/180=12%
+# Load=112/1024=11%, Rehash=0, Collisions=15/177=8%
 
 # Pattern-specific Variable Values
 
@@ -254,46 +248,50 @@ USERDOMAIN_ROAMINGPROFILE = DESKTOP-C2MV7TK
 
 # Directories
 
+# C:\program1\opencv\build\x64\vc15\lib (key C:/program1/opencv/build/x64/vc15/lib, mtime 1653465406): 9 files, no impossibilities.
 # C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\bin (key C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.6/bin, mtime 1651466912): 52 files, no impossibilities.
-# C:\Users\Nighthawks\AppData\Local\Microsoft\WindowsApps (key C:/Users/Nighthawks/AppData/Local/Microsoft/WindowsApps, mtime 1652515316): 32 files, no impossibilities.
-# C:\Users\Nighthawks\Anaconda3\envs\pipenv (key C:/Users/Nighthawks/Anaconda3/envs/pipenv, mtime 1651042245): 73 files, no impossibilities.
+# C:\Users\Nighthawks\AppData\Local\Microsoft\WindowsApps (key C:/Users/Nighthawks/AppData/Local/Microsoft/WindowsApps, mtime 1653635546): 32 files, no impossibilities.
+# C:\Users\Nighthawks\Anaconda3\envs\pipenv (key C:/Users/Nighthawks/Anaconda3/envs/pipenv, mti 
+me 1652793894): 74 files, no impossibilities.
 # C:\program\flutter\bin: could not be stat'd.
 # C:\Program Files\Microsoft SQL Server\150\Tools\Binn\ (key C:/Program Files/Microsoft SQL Server/150/Tools/Binn/, mtime 1652034448): 4 files, no impossibilities.
 # C:\Program Files\NVIDIA Corporation\Nsight Compute 2022.1.1\ (key C:/Program Files/NVIDIA Corporation/Nsight Compute 2022.1.1/, mtime 1651464784): 12 files, no impossibilities.
 # C:\Windows\System32\WindowsPowerShell\v1.0\ (key C:/Windows/System32/WindowsPowerShell/v1.0/, mtime 1622898672): 30 files, no impossibilities.
 # C:\Windows\System32\Wbem (key C:/Windows/System32/Wbem, mtime 1652385301): 154 files, no impossibilities.
-# . (key c:/Users/Nighthawks/Desktop/UMS/data structures and algorithms/Project, mtime 1652679078): 13 files, no impossibilities.
-# C:\Program Files\nodejs\ (key C:/Program Files/nodejs/, mtime 1651469008): 13 files, no impossibilitie 
-s.
-# C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common (key C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common, mtime 1649987215): 10 files, no impossibilities.
+# . (key c:/Users/Nighthawks/Desktop/UMS/data structures and algorithms/Project, mtime 1652939755): 13 files, no impossibilities.
+# C:\Program Files\nodejs\ (key C:/Program Files/nodejs/, mtime 1651469008): 13 files, no impossibilities.
+# C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common (key C:/Program Files (x86)/NVIDIA Corpor 
+ation/PhysX/Common, mtime 1649987215): 10 files, no impossibilities.
 # C:\Program Files\dotnet\ (key C:/Program Files/dotnet/, mtime 1652678337): 13 files, no impossibilities.
 # resource (key c:/Users/Nighthawks/Desktop/UMS/data structures and algorithms/Project/resource, mtime 1652601393): 6 files, no impossibilities.
 # C:\Windows\System32\OpenSSH\: could not be stat'd.
-# C:\Windows (key C:/Windows, mtime 1652385704): 121 files, no impossibilities.
+# C:\Windows (key C:/Windows, mtime 1653482666): 117 files, no impossibilities.
 # C:\Program Files\Common Files\Oracle\Java\javapath (key C:/Program Files/Common Files/Oracle/Java/javapath, mtime 1651040628): 6 files, no impossibilities.
-# C:\Users\Nighthawks\AppData\Local\Programs\Microsoft VS Code\bin (key C:/Users/Nighthawks/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1652205369): 4 files, no impossibilities.
+# C:\Users\Nighthawks\AppData\Local\Programs\Microsoft VS Code\bin (key C:/Users/Nighthawks/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1652935376): 4 files, no impossibilities.
 # C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\libnvvp (key C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.6/libnvvp, mtime 1651466810): 14 files, no impossibilities.
-# src (key c:/Users/Nighthawks/Desktop/UMS/data structures and algorithms/Project/src, mtime 1652597687): 27 files, no impossibilities.
+# src (key c:/Users/Nighthawks/Desktop/ 
+UMS/data structures and algorithms/Project/src, mtime 1652772452): 27 files, no impossibilities.
 # C:\Users\Nighthawks\AppData\Roaming\npm (key C:/Users/Nighthawks/AppData/Roaming/npm, mtime 1651469002): 2 files, no impossibilities.
 # C:\Users\Nighthawks\.dotnet\tools: could not be stat'd.
 # C:\Program Files\mongosh-1.3.1-win32-x64\bin (key C:/Program Files/mongosh-1.3.1-win32-x64/bin, mtime 1651864933): 4 files, no impossibilities.
 # C:\msys64\mingw64\bin (key C:/msys64/mingw64/bin, mtime 1651041839): 207 files, no impossibilities.
 # C:\Users\Nighthawks\Anaconda3 (key C:/Users/Nighthawks/Anaconda3, mtime 1651042132): 89 files, no impossibilities.
 # C:\Program Files\Git\cmd (key C:/Program Files/Git/cmd, mtime 1652119380): 8 files, no impossibilities.
-# C:\Windows\system32 (key C:/Windows/system32, mtime 1652602641): 2920 files, no impossibilities.
-# C:\Program Files\MongoDB\Server\5.0\bin (key C:/Program File 
-s/MongoDB/Server/5.0/bin, mtime 1651861448): 9 files, no impossibilities.
+# C:\Windows\system32 (key C:/Windows/system32, mtime 1653507418): 2920 files, no impossibilities.
+# C:\program1\opencv\build\x64\vc15\bin (key C:/program1/opencv/build/x64/vc15/bin, mtime 1653465418): 15 files, no impossibilities.
+# C:\Program Files\MongoDB\Ser 
+ver\5.0\bin (key C:/Program Files/MongoDB/Server/5.0/bin, mtime 1651861448): 9 files, no impossibilities.
+# C:\Program Files\CMake\bin (key C:/Program Files/CMake/bin, mtime 1653483849): 7 files, no impossibilities.
 # C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR (key C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR, mtime 1649987225): 5 files, no impossibilities.
 # C:\Program Files (x86)\GnuWin32\bin (key C:/Program Files (x86)/GnuWin32/bin, mtime 1651860696): 5 files, no impossibilities.
 
-# 3833 files, no impossibilities in 29 directories.
+# 3861 files, no impossibilities in 32 directories.
 
 # Implicit Rules
 
 obj/%.o: src/%.cpp
 #  commands to execute (from `makefile', line 40):
-	$(CC) $(C 
-XXFLAGS) -o $@ -I ./header -c $<
+	$(CC) $(CXXFLAGS) -o $@ -I ./header -c $<
 	
 
 obj/%.o: resource/%.cpp
@@ -315,27 +313,11 @@ debug/%.o: resource/%.cpp
 
 # Files
 
-obj/Student.o: resource/Student.cpp
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: `Student'
-#  Last modified 2022-05-16 13:31:17
-#  File has been updated.
-#  Successfully updated.
-# variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
-#  commands to execute (from `makefile', line 43):
-	$(CC) $(CXXFLAGS) -o $@ -I ./header -c $<
-	
-
 # Not a target:
-resource/StudentList.cpp:
-#  Implicit rule search has been done.
-#  Last modified 2022-05-15 15:39:03
-#  File has been updated.
-#  Successfully updated.
-# variable set hash-tabl 
-e stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+obj/Student.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
 debug/main.o:
@@ -348,81 +330,48 @@ src/mainMenuDisplay.cpp:
 #  Implicit rule search has been done.
 #  Last modified 2022-05-15 14:54:47
 #  File has been updated.
-#  Successfully updated.
+#  Succ 
+essfully updated.
 # variable set hash-table stats:
 # Load=0/32=0%, Rehash=0, Collisions=0/0=0%
 
 # Not a target:
 src/cgpaAccordingToFaculty.cpp:
-#  Implicit rule search  
-has been done.
-#  Last modified 2022-05-15 14:54:47
+#  Implicit rule search has been done.
+#  Last modified 2022-05-18 15:32:13
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
 # Load=0/32=0%, Rehash=0, Collisions=0/0=0%
 
-myapp: obj/addNewStudent.o obj/addStudentResult.o obj/cgpaAccordingToFaculty.o obj/cgpaAccordingToProgramme.o obj/cgpaAccordingToSemester.o obj/deleteStudent.o obj/deleteStudentResult.o obj/getSelection.o obj/main.o obj/mainMenu.o obj/mainMenuDisplay.o obj/searchStudent.o obj/statisticsOfCourseMenu.o obj/statisticsOfCourseMenuDisplay.o obj/statisticsOfStudentMenu.o obj/statisticsOfStudentMenuDisplay.o obj/studentProfileMenu.o obj/studentProfileMenuDisplay.o obj/studentResultMenu.o obj/studentResultMenuDisplay.o obj/totalNumberOfStudentAccordingToFaculty.o obj/totalNumberOfStudentAccordingToProgramme.o obj/totalNumberOfStudentAccordingToSemester.o obj/updateStudent.o obj/updateStudentResultOperation.o obj/Course.o obj/CourseList.o obj/Student.o obj/StudentList.o
+myapp: obj/addNewStudent.o obj/addStudentResult.o obj/cgpaAccordingToFaculty.o obj/cgpaAccordingToProgramme.o obj/cgpaAccordingToSemester.o obj/deleteStudent.o obj/deleteStudentResult.o obj/getSelection.o obj/main.o obj/mainMenu.o obj/mainMenuDisplay.o obj/searchStudent.o obj/statisticsOfCourseMenu.o obj/statisticsOfCourseMenuDisplay.o obj/statisticsOfStudentMenu.o obj/statisticsOfStudentMenuDisplay.o obj/studentProfileMenu.o obj/studentProfileMenuDisplay.o obj/studentResultMenu.o obj/studentResultMenuDisplay.o obj/totalNumberOfStudentAccordingToFaculty.o obj/totalNumberOfStudentAccordingToProgramme.o obj/totalNumberOfStudentAccordingToSemester.o obj/updateStudent.o obj/updateStudentResult.o obj/Course.o obj/CourseList.o obj/Student.o obj/StudentList.o
 #  Implicit rule search has not been done.
-#  Implicit/static pattern stem: `'
 #  File does not exist.
 #  File has been updated.
 #  Needs to be updated (-q is set).
-# automatic
-# @ := myapp
-# automatic
-# % := 
-# automatic
-# * := 
-# automatic
-# + := obj/addNewStudent.o obj/addStudentResult.o obj/cgpaAccordingToFaculty.o obj/cgpaAccordingToProgramme.o obj/cgpaAccordingToSemester.o obj/deleteStudent.o obj/deleteStudentResult.o obj/getSelection.o obj/main.o obj/mainMenu.o obj/mainMenuDisplay.o obj/searchStudent.o obj/statisticsOfCourseMenu.o obj/statisticsOfCourseMenuDisplay.o obj/statisticsOfStudentMenu.o obj/statisticsOfStudentMenuDisplay.o obj/studentProfileMenu.o obj/studentProfileMenuDisplay.o obj/studentResultMenu.o obj/studentResultMenuDisplay.o obj/totalNumberOfStudentAccordingToFaculty.o obj/totalNumberOfStudentAccordingToProgramme.o obj/totalNumberOfStudentAccordingToSemester.o obj/updateStudent.o obj/updateStudentResultOperation.o obj/Course.o obj/CourseList.o obj/Student.o obj/StudentList.o
-# automatic
-# | := 
-# automatic
-# < := obj/addNewStudent.o
-# automatic
-# ^ := obj/addNewStudent.o obj/addStudentResult.o obj/cgpaAccordingToFaculty.o obj/cgpaAccordingToProgramme.o obj/cgpaAccordingToSemester.o obj/deleteStudent.o obj/deleteStudentResult.o obj/getSelection.o obj/main.o obj/mainMenu.o obj/mainMenuDisplay.o obj/searchStudent.o obj/statisticsOfCourseMenu.o obj/statisticsOfCourseMenuDisplay.o obj/statisticsOfStudentMenu.o obj/statisticsOfStudentMenuDisplay.o obj/studentProfileMenu.o obj/studentProfileMenuDisplay.o obj/studentResultMenu.o obj/studentResultMenuDisplay.o obj/totalNumberOfStudentAccordingToFaculty.o obj/totalNumberOfStudentAccordingToProgramme.o obj/totalNumberOfStudentAccordingToSemester.o obj/updateStudent.o obj/updateStudentResultOperation.o obj/Course.o obj/CourseList.o obj/Student.o obj/StudentList.o
-# automatic
-# ? := obj/addNewStudent.o obj/addStudentResult.o obj/cgpaAccordingToFaculty.o obj/cgpaAccordingToProgramme.o obj/cgpaAccordingToSemester.o obj/deleteStudent.o obj/deleteStudentResult.o obj/getSelection.o obj/main.o obj/mainMenu.o obj/mainMenuDisplay.o obj/searchStudent.o obj/statisticsOfCourseMenu.o obj/statisticsOfCourseMenuDisplay.o obj/statisticsOfStudentMenu.o obj/statisticsOfStudentMenuDisplay.o obj/studentProfileMenu.o obj/studentProfileMenuDisplay.o obj/studentResultMenu.o obj/studentResultMenuDisplay.o obj/totalNumberOfStudentAccordingToFaculty.o obj/totalNumberOfStudentAccordingToProgramme.o obj/totalNumberOfStudentAccordingToSemester.o obj/updateStudent.o obj/updateStudentResultOperation.o obj/Course.o obj/CourseList.o obj/Student.o obj/Stud 
-entList.o
 # variable set hash-table stats:
-# Load=8/32=25%, Rehash=0, Collisions=1/15=7%
+# Load=0/32=0%, Rehash=0, Collisions=0/4=0%
 #  commands to execute (from `makefile', line 37):
 	$(CC) $(CXXFLAGS) -o $@ $^ $(LDFLAGS) 
 	
 
 # Not a target:
-resource/CourseList.cpp:
-#  Implicit rule search has been done.
-#  Last modified 2022-05-16 13:08:03
-#  File has been updated.
-#  Successfully updated.
-# variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
-
-# Not a target:
 debug/Course.o:
 #  Implicit rule search has not been done.
-#  Modif 
-ication time never checked.
-#  File has not been updated.
+#  Modification time never checked.
+#  File has n 
+ot been updated.
 
-obj/updateStudent.o: src/updateStudent.cpp
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: `updateStudent'
-#  Last modified 2022-05-16 13:31:15
-#  File has been updated.
-#  Successfully updated.
-# variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
-#  commands to execute (from `makefile', line 40):
-	$(CC) $(CXXFLAGS) -o $@ -I ./header -c $<
-	
+# Not a target:
+obj/updateStudent.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 obj/mainMenu.o: src/mainMenu.cpp
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: `mainMenu'
-#  Last modified 2022-05-16 13:31:07
+#  Last modified 2022-05-19 13:54:44
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -439,30 +388,23 @@ debug/statisticsOfStudentMenu.o:
 
 all: myapp
 #  Command-line target.
- 
 #  Implicit rule search has been done.
 #  File does not exist.
 #  File has been updated.
 #  Needs to be updated (-q is set).
 # variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/5=0%
+# Load=0/32=0%, Rehash=0, Collisions=0/4=0%
 
-obj/statisticsOfCourseMenuDisplay.o: src/statisticsOfCourseMenuDisplay.cpp
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: `statisticsOfCourseMenuDisplay'
-#  Last modified 2022-05-16 13:31:09
-#  File has been updated.
-#  Successfully updated.
-# variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
-#  commands to execute (from `makefile', line 40):
-	$(CC) $(CXXFLAGS) -o $@ -I ./header -c $<
-	
+# Not a target:
+obj/statisticsOfCourseMenuDisplay.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
 src/statisticsOfCourseMenu.cpp:
 #  Implicit rule search has been done.
-#  Last modified 2022-05-15 14:54:47
+#  Last modified 2022-05-19 13:56:17
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -475,7 +417,8 @@ debug/cgpaAccordingToProgramme.o:
 #  File has not been updated.
 
 # Not a target:
-debug/cgpaAccordingToSemester.o:
+debu 
+g/cgpaAccordingToSemester.o:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -483,7 +426,7 @@ debug/cgpaAccordingToSemester.o:
 # Not a target:
 src/addStudentResult.cpp:
 #  Implicit rule search has been done.
-#  Last modified 2022-05-15 14:54:47
+#  Last modified 2022-05-19 13:27:25
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -492,7 +435,8 @@ src/addStudentResult.cpp:
 .PHONY: clean cleandebug rebuild
 #  Implicit rule search has not been done.
 #  Modification time never checked.
-#  File has not been updated.
+#  File has no 
+t been updated.
 
 # Not a target:
 debug/totalNumberOfStudentAccordingToFaculty.o:
@@ -500,18 +444,11 @@ debug/totalNumberOfStudentAccordingToFaculty.o:
 #  Modification time never checked.
 #  File has not been updated.
 
-obj/totalNumberOfStudentAccordingToProgramme.o: src/totalNumberOfStudentAccordingToProgramme.cpp
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: `totalNumberOfStudentAccordingToProgramme'
-#  Last modified 2022-05-16 13:31:13
-#  File has been up 
-dated.
-#  Successfully updated.
-# variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
-#  commands to execute (from `makefile', line 40):
-	$(CC) $(CXXFLAGS) -o $@ -I ./header -c $<
-	
+# Not a target:
+obj/totalNumberOfStudentAccordingToProgramme.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
 debug/studentResultMenuDisplay.o:
@@ -519,35 +456,26 @@ debug/studentResultMenuDisplay.o:
 #  Modification time never checked.
 #  File has not been updated.
 
-obj/studentProfileMenuDisplay.o: src/studentProfileMenuDisplay.cpp
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: `studen 
-tProfileMenuDisplay'
-#  Last modified 2022-05-16 13:31:11
-#  File has been updated.
-#  Successfully updated.
-# variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
-#  commands to execute (from `makefile', line 40):
-	$(CC) $(CXXFLAGS) -o $@ -I ./header -c $<
-	
+# Not a target:
+obj/updateStudentResult.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
-src/studentProfileMenu.cpp:
-#  Implicit rule search has been done.
-#  Last modified 2022-05-16 13:30:51
-#  File has been updated.
-#  Successfully updated.
-# variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+obj/studentProfileMenuDisplay.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
 src/deleteStudentResult.cpp:
 #  Implicit rule search has been done.
-#  Last modified 2022-05-15 14:54:47
+#  Last modified 2022-05-19 13:31:08
 #  File has been updated.
 #  Successfully updated.
-# variable set hash-table stats:
+# variable set  
+hash-table stats:
 # Load=0/32=0%, Rehash=0, Collisions=0/0=0%
 
 # Not a target:
@@ -556,17 +484,11 @@ src/deleteStudentResult.cpp:
 #  Modification time never checked.
 #  File has not been updated.
 
-obj/totalNumberOfStudentAccordingToSemester.o: src/totalNumberOfStudentAccordingToSemester.cpp
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: `totalNumberOfStudentAccordingToSemester'
-#  Last modified 2022-05-16 13:31:14
-#  File has been updated.
-#  Successfully updated.
-# variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
-#  commands to execute (from `makefile', line 40):
-	$(CC) $(CXXFLAGS) -o $@ -I ./header -c $<
-	
+# Not a target:
+obj/totalNumberOfStudentAccordingToSemester.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
 debug/getSelection.o:
@@ -577,7 +499,7 @@ debug/getSelection.o:
 obj/main.o: src/main.cpp
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: `main'
-#  Last modified 2022-05-16 13:31:06
+#  Last modified 2022-05-19 13:54:44
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -589,17 +511,9 @@ obj/main.o: src/main.cpp
 # Not a target:
 src/addNewStudent.cpp:
 #  Implicit rule search has been done.
-#  Last modified 2022-05-16 13:27:08
-#  File has been updated.
-#  Successfully updated.
-# variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
-
-# Not a target:
-src/statisticsOfStudentMenuDisplay.cpp:
-#  Implicit rule search has been done.
-#  Last modified 2022-05-15 14:54:47
-#  File has been updated.
+#  Last modified 2022-05-19 12:49:08
+#  File has been update 
+d.
 #  Successfully updated.
 # variable set hash-table stats:
 # Load=0/32=0%, Rehash=0, Collisions=0/0=0%
@@ -607,10 +521,9 @@ src/statisticsOfStudentMenuDisplay.cpp:
 # Not a target:
 src/mainMenu.cpp:
 #  Implicit rule search has been done.
-#  Last modified 2022-05-16 13:30:11
+#  Last modified 2022-05-19 13:23:17
 #  File has been updated.
-#  Successfully  
-updated.
+#  Successfully updated.
 # variable set hash-table stats:
 # Load=0/32=0%, Rehash=0, Collisions=0/0=0%
 
@@ -620,39 +533,29 @@ rebuild: clean all
 #  File does not exist.
 #  File has not been updated.
 
-debug: myappdebug
+debug: m 
+yappdebug
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
-obj/Course.o: resource/Course.cpp
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: `Course'
-#  Last modified 2022-05-16 13:31:16
-#  File has been updated.
-#  Successfully updated.
-# variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
-#  commands to execute (from `makefile', line 43):
-	$(CC) $(CXXFLAGS) -o $@ -I ./header -c $<
-	
+# Not a target:
+obj/Course.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
-obj/statisticsOfStudentMenu.o: src/statisticsOfStudentMenu.cpp
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: `statisticsOfStudentMenu'
-#  Last modified 2022-05-16 13:31:09
-#  File has been updated.
-#  Successfully updated.
-# variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
-#  commands to execute (from `makefile', line 40):
-	$(CC) $(CXXFLAGS) -o $@ -I ./header -c $<
-	
+# Not a target:
+obj/statisticsOfStudentMenu.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
 src/deleteStudent.cpp:
 #  Implicit rule search has been done.
-#  Last modified 2022-05-15 14:54:47
+#  Last modified  
+2022-05-19 13:20:58
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -671,7 +574,8 @@ makefile:
 debug/mainMenuDisplay.o:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
-#  File has not been updated.
+#  File has  
+not been updated.
 
 # Not a target:
 debug/cgpaAccordingToFaculty.o:
@@ -680,80 +584,48 @@ debug/cgpaAccordingToFaculty.o:
 #  File has not been updated.
 
 obj/cgpaAccordingToProgramme.o: src/cgpaAccordingToProgramme.cpp
-#  Implicit rule search h 
-as been done.
+#  Implicit rule search has been done.
 #  Implicit/static pattern stem: `cgpaAccordingToProgramme'
-#  Last modified 2022-05-16 13:31:04
+#  Last modified 2022-05-19 12:42:54
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
 # Load=0/32=0%, Rehash=0, Collisions=0/0=0%
-#  commands to execute (from `makefile', line 40):
+#  com 
+mands to execute (from `makefile', line 40):
 	$(CC) $(CXXFLAGS) -o $@ -I ./header -c $<
 	
 
 obj/cgpaAccordingToSemester.o: src/cgpaAccordingToSemester.cpp
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: `cgpaAccordingToSemester'
-#  Last modified 2022-05-16 13:31:04
+#  Last modified 2022-05-19 12:42:54
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
 # Load=0/32=0%, Rehash=0, Collisions=0/0=0%
 #  commands to execute (from `makefile', line 40):
 	$(CC) $(CXXFLAGS) -o $@ -I ./header -c $<
-	
+	 
 
-obj/totalNumberOfStudentAccordingToFaculty.o: src/totalNumberOfStudentAccordingToFaculty.cpp
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: `totalNumberOfStudentAccordingToFaculty'
-#  Last modified 2022-05-16 13:31:13
-#  File has been updat 
-ed.
-#  Successfully updated.
-# variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
-#  commands to execute (from `makefile', line 40):
-	$(CC) $(CXXFLAGS) -o $@ -I ./header -c $<
-	
 
 # Not a target:
-resource/Student.cpp:
-#  Implicit rule search has been done.
-#  Last modified 2022-05-16 13:16:26
-#  File has been updated.
-#  Successfully updated.
-# variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
-
-# Not a target:
-debug/searchStudent.o:
-#  Implicit rule search has 
- not been done.
+obj/totalNumberOfStudentAccordingToFaculty.o:
+#  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
-obj/studentResultMenuDisplay.o: src/studentResultMenuDisplay.cpp
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: `studentResultMenuDisplay'
-#  Last modified 2022-05-16 13:31:12
-#  File has been updated.
-#  Successfully updated.
-# variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
-#  commands to execute (from `makefile', line 40):
-	$(CC) $(CXXFLAGS) -o $@ -I ./header -c $<
-	
+# Not a target:
+debug/searchStudent.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
-# N 
-ot a target:
-src/studentResultMenu.cpp:
-#  Implicit rule search has been done.
-#  Last modified 2022-05-15 14:54:47
-#  File has been updated.
-#  Successfully updated.
-# variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+# Not a target:
+obj/studentResultMenuDisplay.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
 debug/statisticsOfCourseMenu.o:
@@ -764,13 +636,14 @@ debug/statisticsOfCourseMenu.o:
 obj/getSelection.o: src/getSelection.cpp
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: `getSelection'
-#  Last modified 2022-05-16 13:31:06
+#  Last modified 2022-05-19 13:54:42
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
 # Load=0/32=0%, Rehash=0, Collisions=0/0=0%
 #  commands to execute (from `makefile', line 40):
-	$(CC) $(CXXFLAGS) -o $@ -I ./header -c $<
+	$(CC) $(CXXFLAGS) -o $@ -I ./header -c $ 
+<
 	
 
 # Not a target:
@@ -788,11 +661,12 @@ debug/CourseList.o:
 # Not a target:
 src/searchStudent.cpp:
 #  Implicit rule search has been done.
-#  Last modified 2022-05-15 14:54:47
+#  Last modified 2022-05-19 13:22:36
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+# Load=0/3 
+2=0%, Rehash=0, Collisions=0/0=0%
 
 # Not a target:
 debug/studentProfileMenu.o:
@@ -806,21 +680,11 @@ debug/studentProfileMenu.o:
 #  Modification time never checked.
 #  File has not been updated.
 
-# Not a target:
-src/updateStudent.cpp:
-#  Implicit rule search has been done.
-#  Last modified 2022-05-15 14:54:47
-#  File has been updated.
-#  Successfully updated.
-# variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
-
 obj/mainMenuDisplay.o: src/mainMenuDisplay.cpp
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: `mainMenuDisplay'
-#  Last modified 2022-05-16 13:31:07
-#  F 
-ile has been updated.
+#  Last modified 2022-05-19 12:42:58
+#  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
 # Load=0/32=0%, Rehash=0, Collisions=0/0=0%
@@ -836,8 +700,9 @@ debug/addNewStudent.o:
 
 obj/cgpaAccordingToFaculty.o: src/cgpaAccordingToFaculty.cpp
 #  Implicit rule search has been done.
-#  Implicit/static pattern stem: `cgpaAccordingToFaculty'
-#  Last modified 2022-05-16 13:31:03
+#  Implicit/static pattern stem: `cgpaAccordingToF 
+aculty'
+#  Last modified 2022-05-19 12:42:53
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -851,16 +716,6 @@ debug/statisticsOfStudentMenuDisplay.o:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-
-# Not a target:
-src/statisticsOfCourseMenuDisplay.cpp:
-#  Implicit r 
-ule search has been done.
-#  Last modified 2022-05-15 14:54:47
-#  File has been updated.
-#  Successfully updated.
-# variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
 
 cleandebug:
 #  Phony target (prerequisite of .PHONY).
@@ -877,22 +732,17 @@ debug/StudentList.o:
 #  Modification time never checked.
 #  File has not been updated.
 
-obj/StudentList.o: resource/StudentList.cpp
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: `StudentList'
-#  Last modified 2022-05-16 13:31:18
-#  File has been updated.
-#  Successfully updated.
-# variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
-#  commands to execute (from `makefile', line 43):
-	$(CC) $(CXXFLAGS) -o $@ -I ./header -c $<
-	
+# Not a target:
+obj/StudentList.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 obj/searchStudent.o: src/searchStudent.cpp
-#  Implicit rule search has been done.
+#  Im 
+plicit rule search has been done.
 #  Implicit/static pattern stem: `searchStudent'
-#  Last modified 2022-05-16 13:31:08
+#  Last modified 2022-05-19 13:54:45
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -907,51 +757,39 @@ debug/deleteStudent.o:
 #  Modification time never checked.
 #  File has not been updated.
 
-# Not a target: 
-
-src/totalNumberOfStudentAccordingToProgramme.cpp:
-#  Implicit rule search has been done.
-#  Last modified 2022-05-15 14:54:47
-#  File has been updated.
-#  Successfully updated.
-# variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
-
 obj/statisticsOfCourseMenu.o: src/statisticsOfCourseMenu.cpp
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: `statisticsOfCourseMenu'
-#  Last modified 2022-05-16 13:31:08
+#  Last modified 2022-05-19 13:55:43
 #  File has been updated.
-#  Successfully updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := obj/statisticsOfCourseMenu.o
+# automatic
+# % := 
+# automatic
+# * := statisticsOfCourseMenu
+# automatic
+# + := src/statisticsOfCourseMenu.cpp
+# automatic
+# | := 
+# automatic
+# < := src/statisticsOfCourseMenu.cpp
+# automatic
+# ^ := src/statisticsOfCourseMe 
+nu.cpp
+# automatic
+# ? := src/statisticsOfCourseMenu.cpp
 # variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+# Load=8/32=25%, Rehash=0, Collisions=1/14=7%
 #  commands to execute (from `makefile', line 40):
 	$(CC) $(CXXFLAGS) -o $@ -I ./header -c $<
 	
 
-# Not a target:
-src/studentProfileMenuDisplay.cpp:
-#  Implicit rule search has been done.
-#  Last modified 2022-05-15 14:54:47
-#  File has been updated.
-#  Successfully updated.
-# variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
-
-# Not a target:
-src/totalNumberOfStudentAccordingToSemester.cpp:
-#  Implicit rule search has 
- been done.
-#  Last modified 2022-05-15 14:54:47
-#  File has been updated.
-#  Successfully updated.
-# variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
-
 obj/addStudentResult.o: src/addStudentResult.cpp
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: `addStudentResult'
-#  Last modified 2022-05-16 13:31:02
+#  Last modified 2022-05-19 13:54:40
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -970,38 +808,17 @@ clean:
 	
 
 # Not a target:
-debug/updateStudentResultOperation.o:
+debug/studentResultMenu.o:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
+ 
 # Not a target:
-debug/studentResultMenu.o:
-# 
-  Implicit rule search has not been done.
+obj/studentProfileMenu.o:
+#  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-
-obj/studentProfileMenu.o: src/studentProfileMenu.cpp
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: `studentProfileMenu'
-#  Last modified 2022-05-16 13:31:11
-#  File has been updated.
-#  Successfully updated.
-# variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
-#  commands to execute (from `makefile', line 40):
-	$(CC) $(CXXFLAGS) -o $@ -I ./header -c $<
-	
-
-# Not a target:
-resource/Course.cpp:
-#  Implicit rule search has been done.
-#  Last modified 2022-05-15 15:59:36
-#  File has been updated.
-#  Successfully updated.
-# variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
 
 # Not a target:
 debug/deleteStudentResult.o:
@@ -1012,12 +829,12 @@ debug/deleteStudentResult.o:
 # Not a target:
 src/main.cpp:
 #  Implicit rule search has been done.
-#  Last modified 2022-05-15 14:54:47
-#  F 
-ile has been updated.
+#  Last modified 2022-05-19 12:44:13
+#  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+# Load=0/32=0%, 
+ Rehash=0, Collisions=0/0=0%
 
 # Not a target:
 debug/Student.o:
@@ -1028,44 +845,28 @@ debug/Student.o:
 obj/addNewStudent.o: src/addNewStudent.cpp
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: `addNewStudent'
-#  Last modified 2022-05-16 13:31:02
-#  File has been updated.
-#  Successfully updated.
-# variable set hash-table 
- stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
-#  commands to execute (from `makefile', line 40):
-	$(CC) $(CXXFLAGS) -o $@ -I ./header -c $<
-	
-
-obj/statisticsOfStudentMenuDisplay.o: src/statisticsOfStudentMenuDisplay.cpp
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: `statisticsOfStudentMenuDisplay'
-#  Last modified 2022-05-16 13:31:10
+#  Last modified 2022-05-19 13:54:39
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
 # Load=0/32=0%, Rehash=0, Collisions=0/0=0%
-#  commands to execute (from `makefile', line 40):
+#  commands to execute (from `makefile', li 
+ne 40):
 	$(CC) $(CXXFLAGS) -o $@ -I ./header -c $<
 	
 
 # Not a target:
-src/statisticsOfStudentMenu.cpp:
-#  Implicit rule search has been done.
-#  Last modified 2022-05-15 14:54:47
-#  File has been updated.
-#  Successfully updated.
-# variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+obj/statisticsOfStudentMenuDisplay.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
 src/cgpaAccordingToProgramme.cpp:
 #  Implicit rule search has been done.
-#  Last modified 2022-05-15 14:54:47
+#  Last modified 2022-05-18 15:36:26
 #  File has been updated.
 #  Successfully updated.
- 
 # variable set hash-table stats:
 # Load=0/32=0%, Rehash=0, Collisions=0/0=0%
 
@@ -1081,24 +882,15 @@ src/cgpaAccordingToSemester.cpp:
 obj/deleteStudent.o: src/deleteStudent.cpp
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: `deleteStudent'
-#  Last modified 2022-05-16 13:31:05
-#  File has  
-been updated.
-#  Successfully updated.
-# variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
-#  commands to execute (from `makefile', line 40):
-	$(CC) $(CXXFLAGS) -o $@ -I ./header -c $<
-	
-
-# Not a target:
-src/totalNumberOfStudentAccordingToFaculty.cpp:
-#  Implicit rule search has been done.
-#  Last modified 2022-05-15 14:54:47
+#  Last modified 2022-05-19 13:54:41
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
 # Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+# 
+  commands to execute (from `makefile', line 40):
+	$(CC) $(CXXFLAGS) -o $@ -I ./header -c $<
+	
 
 # Not a target:
 debug/updateStudent.o:
@@ -1113,65 +905,32 @@ debug/mainMenu.o:
 #  File has not been updated.
 
 # Not a target:
-src/studentResultMenuDisplay.cpp:
-#  Implicit rule search has been done.
-#  Last modified 2022-05-15 14:54:47
-#  File has been updated.
-#  Successfully updated.
-# variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/ 
-0=0%
-
-# Not a target:
 debug/statisticsOfCourseMenuDisplay.o:
 #  Implicit rule search has not been done.
-#  Modification time never checked.
+#  Modification time neve 
+r checked.
 #  File has not been updated.
 
 # Not a target:
 src/getSelection.cpp:
 #  Implicit rule search has been done.
-#  Last modified 2022-05-15 14:54:47
+#  Last modified 2022-05-19 13:53:47
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
 # Load=0/32=0%, Rehash=0, Collisions=0/0=0%
 
-obj/updateStudentResultOperation.o: src/updateStudentResultOperation.cpp
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: `updateStudentResultOperation'
-#  Last modified 2022-05-16 13:31:15
-#  File has been updated.
-#  Successfully updated.
-# variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
-#  commands to execute (from `makefile', line 40):
-	$(CC) $(CXXFLAGS) -o $@ -I ./header -c $<
-	
+# Not a target:
+obj/studentResultMenu.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
-obj/studentResultMenu.o: src/studentResultMenu.cpp
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: `studentResultMenu'
-#  Last modified 2022-05-16 13:31:12
-#  File has been updated.
-#  Successfully updated.
-# variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
-#  commands to execute (from `makefile', line 40):
-	$(CC) $(CXXFLAGS) -o $@ -I ./header -c $<
-	
-
-obj/CourseList.o: resource/CourseList.cpp
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: `CourseList'
-#  Last modified 2022-05-16 13:31:16
-#  File has been updated.
-#  Successfully updated.
-# variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
-#  commands to execute (from `makefile', line 43):
-	$(CC) $(CXXFLAGS) -o $@ -I ./header -c $<
-	
+# Not a target:
+obj/CourseList.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
 debug/totalNumberOfStudentAccordingToProgramme.o:
@@ -1182,7 +941,7 @@ debug/totalNumberOfStudentAccordingToProgramme.o:
 obj/deleteStudentResult.o: src/deleteStudentResult.cpp
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: `deleteStudentResult'
-#  Last modified 2022-05-16 13:31:05
+#  Last modified 2022-05-19 13:54:42
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -1190,6 +949,12 @@ obj/deleteStudentResult.o: src/deleteStudentResult.cpp
 #  commands to execute (from `makefile', line 40):
 	$(CC) $(CXXFLAGS) -o $@ -I ./header -c $<
 	
+
+# Not a target:
+debug/updateStudentResult.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
 debug/studentProfileMenuDisplay.o:
@@ -1203,16 +968,8 @@ debug/totalNumberOfStudentAccordingToSemester.o:
 #  Modification time never checked.
 #  File has not been updated.
 
-# Not a target:
-src/updateStudentResultOperation.cpp:
-#  Implicit rule search has been done.
-#  Last modified 2022-05-15 14:54:47
-#  File has been updated.
-#  Successfully updated.
-# variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
-
-myappdebug: debug/addNewStudent.o debug/addStudentResult.o debug/cgpaAccordingToFaculty.o debug/cgpaAccordingToProgramme.o debug/cgpaAccordingToSemester.o debug/deleteStudent.o debug/deleteStudentResult.o debug/getSelection.o debug/main.o debug/mainMenu.o debug/mainMenuDisplay.o debug/searchStudent.o debug/statisticsOfCourseMenu.o debug/statisticsOfCourseMenuDisplay.o debug/statisticsOfStudentMenu.o debug/statisticsOfStudentMenuDisplay.o debug/studentProfileMenu.o debug/studentProfileMenuDisplay.o debug/studentResultMenu.o debug/studentResultMenuDisplay.o debug/totalNumberOfStudentAccordingToFaculty.o debug/totalNumberOfStudentAccordingToProgramme.o debug/totalNumberOfStudentAccordingToSemester.o debug/updateStudent.o debug/updateStudentResultOperation.o debug/Course.o debug/CourseList.o debug/Student.o debug/StudentList.o
+myappdebug: debug/addNewStudent.o debug/addStudentResult.o debug/cgpaAccordingToFaculty.o debug/cgpaAccordingToProgramme.o debug/cgpaAccordingToSemester.o debug/deleteStudent.o debug/deleteStudentResult.o debug/getSelection.o debug/main.o debug/mainMenu.o debug/mainMenuDisplay.o debug/searchStudent.o debug/statisticsOfCourseMenu.o debug/statisticsOfCourseMenuDisplay.o debug/statisticsOfS 
+tudentMenu.o debug/statisticsOfStudentMenuDisplay.o debug/studentProfileMenu.o debug/studentProfileMenuDisplay.o debug/studentResultMenu.o debug/studentResultMenuDisplay.o debug/totalNumberOfStudentAccordingToFaculty.o debug/totalNumberOfStudentAccordingToProgramme.o debug/totalNumberOfStudentAccordingToSemester.o debug/updateStudent.o debug/updateStudentResult.o debug/Course.o debug/CourseList.o debug/Student.o debug/StudentList.o
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -1221,7 +978,7 @@ myappdebug: debug/addNewStudent.o debug/addStudentResult.o debug/cgpaAccordingTo
 	
 
 # files hash-table stats:
-# Load=98/1024=10%, Rehash=0, Collisions=23/269=9%
+# Load=82/1024=8%, Rehash=0, Collisions=16/200=8%
 # VPATH Search Paths
 
 # No `vpath' search paths.
@@ -1233,6 +990,6 @@ myappdebug: debug/addNewStudent.o debug/addStudentResult.o debug/cgpaAccordingTo
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Mon May 16 20:21:59 2022
+# Finished Make data base on Fri May 27 16:03:11 2022
 
  

@@ -4,6 +4,11 @@
 
 #include "StudentList.h"
 
+// 1. User input student id
+// 2. Search the node inside the studentList to check the existence of the student
+// 3. User input student new information
+// 4. update the node return from the list
+
 void updateStudent(StudentList *studentList)
 {
     // system("CLS");
@@ -39,6 +44,11 @@ void updateStudent(StudentList *studentList)
         std::string programme;
         std::getline(std::cin >> std::ws, programme);
         studentNode->setProgramme(programme);
+
+        std::cout << "Year: ";
+        int year{};
+        std::cin >> year;
+        studentNode->setYear(year);
 
         std::cout << "Semester: ";
         int semester{};

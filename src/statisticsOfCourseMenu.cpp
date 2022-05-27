@@ -1,13 +1,18 @@
 #include <iostream>
 
+#include "StudentList.h"
+#include "CourseList.h"
+
 int getSelection(int numberOfChoice);
 void statisticsOfCourseMenuDisplay();
 
-void cgpaAccordingToFaculty();
-void cgpaAccordingToProgramme();
+void cgpaAccordingToFaculty(StudentList *studentList, CourseList *courseList);
+void cgpaAccordingToProgramme(StudentList *studentList, CourseList *courseList);
 void cgpaAccordingToSemester();
 
-void statisticsOfCourseMenu()
+// 1. Display Main Menu
+// 2. User input choose operation
+void statisticsOfCourseMenu(StudentList *studentList, CourseList *courseList)
 {
     enum Operation
     {
@@ -27,19 +32,20 @@ void statisticsOfCourseMenu()
         switch (selection)
         {
         case cgpaAccordingToFacultyOperation:
-            cgpaAccordingToFaculty();
+            // cgpaAccordingToFaculty(studentList, courseList);
             break;
 
         case cgpaAccordingToProgrammeOperation:
-            cgpaAccordingToProgramme();
-            std::cout << "cgpaAccordingToProgrammeOperation";
+            // cgpaAccordingToProgramme(studentList, courseList);
             break;
 
         case cgpaAccordingToSemesterOperation:
-            cgpaAccordingToSemester();
-            std::cout << "cgpaAccordingToSemesterOperation";
+            // cgpaAccordingToSemester();
             break;
         default:;
         }
     }
+    // Need to deleted at the end
+    std::cout << studentList->head;
+    std::cout << courseList->head;
 }

@@ -1,6 +1,13 @@
 #include <iostream>
 #include <limits>
 
+// Get user input for the operation 
+// 1. User input the operation
+// 2. Check the condition make sure the user input inside the range
+// 3. Check the user input is valid (number format)
+// 4. Loop until user input the valid input
+// 5. Return the input
+
 int getSelection(int numberOfChoice)
 {
     int selection{0};

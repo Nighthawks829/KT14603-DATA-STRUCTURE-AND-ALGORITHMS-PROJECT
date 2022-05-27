@@ -19,10 +19,10 @@ Student *Student::Next()
     return m_next;
 }
 
-void Student::setId(std::string id)
-{
-    m_id = id;
-}
+// void Student::setId(std::string id)
+// {
+//     m_id = id;
+// }
 
 void Student::setFirstName(std::string firstName)
 {
@@ -44,14 +44,14 @@ void Student::setProgramme(std::string programme)
     m_programme = programme;
 }
 
+void Student::setYear(int year)
+{
+    m_year = year;
+}
+
 void Student::setSemester(int semester)
 {
     m_semester = semester;
-}
-
-void Student::setCourseList(CourseList *courseList)
-{
-    m_courseList = courseList;
 }
 
 std::string Student::getId()
@@ -78,26 +78,11 @@ std::string Student::getProgramme()
 {
     return m_programme;
 }
-
+int Student::getYear()
+{
+    return m_year;
+}
 int Student::getSemester()
 {
     return m_semester;
-}
-
-CourseList *Student::getCourseList()
-{
-    return m_courseList;
-}
-
-void Student::showResult()
-{
-    Course *tmp = m_courseList->head;
-    std::cout << "\nShow Student Result:\n";
-    int i{1};
-    while (tmp != NULL)
-    {
-        std::cout << i << ") " << tmp->getId() << '\t' << tmp->getName() << '\t' << tmp->getCgpa() << '\n';
-        tmp->Next();
-    }
-    std::cout << '\n';
 }

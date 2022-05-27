@@ -1,18 +1,23 @@
 #include <iostream>
 
 #include "StudentList.h"
+#include "CourseList.h"
 
-void mainMenuDisplay();
+//  Function to get user operation
 int getSelection(int numberOfChoice);
+void mainMenuDisplay();
 
-void studentProfileMenu(StudentList *studentList);
-void studentResultMenu();
-void statisticsOfStudentMenu();
-void statisticsOfCourseMenu();
+void studentProfileMenu(StudentList *studentList,CourseList *courseList);
+void studentResultMenu(StudentList *studentList,CourseList *courseList);
+void statisticsOfStudentMenu(StudentList *studentList);
+void statisticsOfCourseMenu(StudentList *studentList,CourseList *courseList);
 
-void mainMenu(StudentList *studentList)
+
+// 1. Display Main Menu
+// 2. User input choose operation
+void mainMenu(StudentList *studentList, CourseList *courseList)
 {
-    
+
     enum Operation
     {
         studentProfileMenuOperation = 1,
@@ -20,7 +25,6 @@ void mainMenu(StudentList *studentList)
         statisticOfStudentOperation,
         statisticOfCourseOperation,
         exitMenu,
-        maxOperation
     };
 
     int selection{};
@@ -28,27 +32,24 @@ void mainMenu(StudentList *studentList)
     {
         // system("CLS");
         mainMenuDisplay();
-        selection = getSelection(maxOperation - 1);
+
+        selection = getSelection(exitMenu);
         switch (selection)
         {
         case studentProfileMenuOperation:
-            studentProfileMenu(studentList);
+            studentProfileMenu(studentList,courseList);
             break;
 
         case studentResultMenuOperation:
-            studentResultMenu();
-            // studentResultMenu(studentList);
+            studentResultMenu(studentList,courseList);
             break;
 
         case statisticOfStudentOperation:
-            statisticsOfStudentMenu();
-            // statisticsOfStudentMenu(studentList);
+            statisticsOfStudentMenu(studentList);
             break;
 
         case statisticOfCourseOperation:
-            statisticsOfCourseMenu();
-            // statisticsOfCourseMenu(studentList);
-            std::cout << "statisticOfCourse";
+            statisticsOfCourseMenu(studentList,courseList);
             break;
 
         default:;

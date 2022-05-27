@@ -1,13 +1,19 @@
 #include <iostream>
 
+#include "StudentList.h"
+#include "CourseList.h"
+
+// Function to get user operation
 int getSelection(int numberOfChoice);
 void studentResultMenuDisplay();
-void addStudentResult();
-void updateStudentResult();
-void deleteStudentResult();
 
+void addStudentResult(StudentList *studentList, CourseList *courseList);
+void updateStudentResult(StudentList *studentList, CourseList *courseList);
+void deleteStudentResult(StudentList *studentList, CourseList *courseList);
 
-void studentResultMenu()
+// 1. Display Main Menu
+// 2. User input choose operation
+void studentResultMenu(StudentList *studentList, CourseList *courseList)
 {
     enum Operation
     {
@@ -27,16 +33,15 @@ void studentResultMenu()
         switch (selection)
         {
         case addStudentResultOperation:
-            addStudentResult();
+            addStudentResult(studentList, courseList);
             break;
 
         case updateStudentResultOperation:
-            updateStudentResult();
+            updateStudentResult(studentList, courseList);
             break;
 
         case deleteStudentResultOperation:
-            deleteStudentResult();
-            std::cout << "deleteStudentResultOperation()\n";
+            deleteStudentResult(studentList, courseList);
             break;
 
         default:

@@ -4,14 +4,20 @@
 #include "Course.h"
 #include "CourseList.h"
 
-void CourseList::print()
+void CourseList::print(std::string studentId)
 {
-    while (head != NULL)
+
+    Course *tmp = head;
+    while (tmp != NULL)
     {
-        std::cout << head->getId() << '\n';
-        std::cout << head->getName() << '\n';
-        std::cout << head->getCgpa() << '\n';
-        head = head->Next();
+        if (tmp->getStudentId() == studentId)
+        {
+            std::cout << tmp->getId() << '\n';
+            std::cout << tmp->getName() << '\n';
+            std::cout << tmp->getSemester() << '\n';
+            std::cout << tmp->getCgpa() << "\n\n";
+        }
+        tmp = tmp->Next();
     }
 }
 

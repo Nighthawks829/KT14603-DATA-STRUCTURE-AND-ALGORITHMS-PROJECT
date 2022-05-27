@@ -5,40 +5,30 @@ g++ -std=c++2a -Wall -fdiagnostics-color=always -pedantic-errors -Werror -Wall -
 g++ -std=c++2a -Wall -fdiagnostics-color=always -pedantic-errors -Werror -Wall -Weffc++ -Wextra -Wsign-conversion -g -O0 -DDEBUG -o debug/cgpaAccordingToFaculty.o -I ./header -c src/cgpaAccordingToFaculty.cpp
 g++ -std=c++2a -Wall -fdiagnostics-color=always -pedantic-errors -Werror -Wall -Weffc++ -Wextra -Wsign-conversion -g -O0 -DDEBUG -o debug/cgpaAccordingToProgramme.o -I ./header -c src/cgpaAccordingToProgramme.cpp
 g++ -std=c++2a -Wall -fdiagnostics-color=always -pedantic-errors -Werror -Wall -Weffc++ -Wextra -Wsign-conversion -g -O0 -DDEBUG -o debug/cgpaAccordingToSemester.o -I ./header -c src/cgpaAccordingToSemester.cpp
- 
 g++ -std=c++2a -Wall -fdiagnostics-color=always -pedantic-errors -Werror -Wall -Weffc++ -Wextra -Wsign-conversion -g -O0 -DDEBUG -o debug/deleteStudent.o -I ./header -c src/deleteStudent.cpp
 g++ -std=c++2a -Wall -fdiagnostics-color=always -pedantic-errors -Werror -Wall -Weffc++ -Wextra -Wsign-conversion -g -O0 -DDEBUG -o debug/deleteStudentResult.o -I ./header -c src/deleteStudentResult.cpp
 g++ -std=c++2a -Wall -fdiagnostics-color=always -pedantic-errors -Werror -Wall -Weffc++ -Wextra -Wsign-conversion -g -O0 -DDEBUG -o debug/getSelection.o -I ./header -c src/getSelection.cpp
 g++ -std=c++2a -Wall -fdiagnostics-color=always -pedantic-errors -Werror -Wall -Weffc++ -Wextra -Wsign-conversion -g -O0 -DDEBUG -o debug/main.o -I ./header -c src/main.cpp
 g++ -std=c++2a -Wall -fdiagnostics-color=always -pedantic-errors -Werror -Wall -Weffc++ -Wextra -Wsign-conversion -g -O0 -DDEBUG -o debug/mainMenu.o -I ./header -c src/mainMenu.cpp
- 
 g++ -std=c++2a -Wall -fdiagnostics-color=always -pedantic-errors -Werror -Wall -Weffc++ -Wextra -Wsign-conversion -g -O0 -DDEBUG -o debug/mainMenuDisplay.o -I ./header -c src/mainMenuDisplay.cpp
- 
 g++ -std=c++2a -Wall -fdiagnostics-color=always -pedantic-errors -Werror -Wall -Weffc++ -Wextra -Wsign-conversion -g -O0 -DDEBUG -o debug/searchStudent.o -I ./header -c src/searchStudent.cpp
- 
 g++ -std=c++2a -Wall -fdiagnostics-color=always -pedantic-errors -Werror -Wall -Weffc++ -Wextra -Wsign-conversion -g -O0 -DDEBUG -o debug/statisticsOfCourseMenu.o -I ./header -c src/statisticsOfCourseMenu.cpp
- 
 g++ -std=c++2a -Wall -fdiagnostics-color=always -pedantic-errors -Werror -Wall -Weffc++ -Wextra -Wsign-conversion -g -O0 -DDEBUG -o debug/statisticsOfCourseMenuDisplay.o -I ./header -c src/statisticsOfCourseMenuDisplay.cpp
- 
 g++ -std=c++2a -Wall -fdiagnostics-color=always -pedantic-errors -Werror -Wall -Weffc++ -Wextra -Wsign-conversion -g -O0 -DDEBUG -o debug/statisticsOfStudentMenu.o -I ./header -c src/statisticsOfStudentMenu.cpp
- 
 g++ -std=c++2a -Wall -fdiagnostics-color=always -pedantic-errors -Werror -Wall -Weffc++ -Wextra -Wsign-conversion -g -O0 -DDEBUG -o debug/statisticsOfStudentMenuDisplay.o -I ./header -c src/statisticsOfStudentMenuDisplay.cpp
- 
 g++ -std=c++2a -Wall -fdiagnostics-color=always -pedantic-errors -Werror -Wall -Weffc++ -Wextra -Wsign-conversion -g -O0 -DDEBUG -o debug/studentProfileMenu.o -I ./header -c src/studentProfileMenu.cpp
- 
 g++ -std=c++2a -Wall -fdiagnostics-color=always -pedantic-errors -Werror -Wall -Weffc++ -Wextra -Wsign-conversion -g -O0 -DDEBUG -o debug/studentProfileMenuDisplay.o -I ./header -c src/studentProfileMenuDisplay.cpp
 g++ -std=c++2a -Wall -fdiagnostics-color=always -pedantic-errors -Werror -Wall -Weffc++ -Wextra -Wsign-conversion -g -O0 -DDEBUG -o debug/studentResultMenu.o -I ./header -c src/studentResultMenu.cpp
 g++ -std=c++2a -Wall -fdiagnostics-color=always -pedantic-errors -Werror -Wall -Weffc++ -Wextra -Wsign-conversion -g -O0 -DDEBUG -o debug/studentResultMenuDisplay.o -I ./header -c src/studentResultMenuDisplay.cpp
- 
 g++ -std=c++2a -Wall -fdiagnostics-color=always -pedantic-errors -Werror -Wall -Weffc++ -Wextra -Wsign-conversion -g -O0 -DDEBUG -o debug/totalNumberOfStudentAccordingToFaculty.o -I ./header -c src/totalNumberOfStudentAccordingToFaculty.cpp
 g++ -std=c++2a -Wall -fdiagnostics-color=always -pedantic-errors -Werror -Wall -Weffc++ -Wextra -Wsign-conversion -g -O0 -DDEBUG -o debug/totalNumberOfStudentAccordingToProgramme.o -I ./header -c src/totalNumberOfStudentAccordingToProgramme.cpp
 g++ -std=c++2a -Wall -fdiagnostics-color=always -pedantic-errors -Werror -Wall -Weffc++ -Wextra -Wsign-conversion -g -O0 -DDEBUG -o debug/totalNumberOfStudentAccordingToSemester.o -I ./header -c src/totalNumberOfStudentAccordingToSemester.cpp
 g++ -std=c++2a -Wall -fdiagnostics-color=always -pedantic-errors -Werror -Wall -Weffc++ -Wextra -Wsign-conversion -g -O0 -DDEBUG -o debug/updateStudent.o -I ./header -c src/updateStudent.cpp
-g++ -std=c++2a -Wall -fdiagnostics-color=always -pedantic-errors -Werror -Wall -Weffc++ -Wextra -Wsign-conversion -g -O0 -DDEBUG -o debug/updateStudentResultOperation.o -I ./header -c src/updateStudentResultOperation.cpp
+g++ -std=c++2a -Wall -fdiagnostics-color=always -pedantic-errors -Werror -Wall -Weffc++ -Wextra -Wsign-conversion -g -O0 -DDEBUG -o debug/updateStudentResult.o -I ./header -c src/updateStudentResult.cpp
 g++ -std=c++2a -Wall -fdiagnostics-color=always -pedantic-errors -Werror -Wall -Weffc++ -Wextra -Wsign-conversion -g -O0 -DDEBUG -o debug/Course.o -I ./header -c resource/Course.cpp
 g++ -std=c++2a -Wall -fdiagnostics-color=always -pedantic-errors -Werror -Wall -Weffc++ -Wextra -Wsign-conversion -g -O0 -DDEBUG -o debug/CourseList.o -I ./header -c resource/CourseList.cpp
 g++ -std=c++2a -Wall -fdiagnostics-color=always -pedantic-errors -Werror -Wall -Weffc++ -Wextra -Wsign-conversion -g -O0 -DDEBUG -o debug/Student.o -I ./header -c resource/Student.cpp
 g++ -std=c++2a -Wall -fdiagnostics-color=always -pedantic-errors -Werror -Wall -Weffc++ -Wextra -Wsign-conversion -g -O0 -DDEBUG -o debug/StudentList.o -I ./header -c resource/StudentList.cpp
-g++ -std=c++2a -Wall -fdiagnostics-color=always -pedantic-errors -Werror -Wall -Weffc++ -Wextra -Wsign-conversion -g -O0 -DDEBUG -o myappdebug debug/addNewStudent.o debug/addStudentResult.o debug/cgpaAccordingToFaculty.o debug/cgpaAccordingToProgramme.o debug/cgpaAccordingToSemester.o debug/deleteStudent.o debug/deleteStudentResult.o debug/getSelection.o debug/main.o debug/mainMenu.o debug/mainMenuDisplay.o debug/searchStudent.o debug/statisticsOfCourseMenu.o debug/statisticsOfCourseMenuDisplay.o debug/statisticsOfStudentMenu.o debug/statisticsOfStudentMenuDisplay.o debug/studentProfileMenu.o debug/studentProfileMenuDisplay.o debug/studentResultMenu.o debug/studentResultMenuDisplay.o debug/totalNumberOfStudentAccordingToFaculty.o debug/totalNumberOfStudentAccordingToProgramme.o debug/totalNumberOfStudentAccordingToSemester.o debug/updateStudent.o debug/updateStudentResultOperation.o debug/Course.o debug/CourseList.o debug/Student.o debug/StudentList.o  
+g++ -std=c++2a -Wall -fdiagnostics-color=always -pedantic-errors -Werror -Wall -Weffc++ -Wextra -Wsign-conversion -g -O0 -DDEBUG -o myappdebug debug/addNewStudent.o debug/addStudentResult.o debug/cgpaAccordingToFaculty.o debug/cgpaAccordingToProgramme.o debug/cgpaAccordingToSemester.o debug/deleteStudent.o debug/deleteStudentResult.o debug/getSelection.o debug/main.o debug/mainMenu.o debug/mainMenuDisplay.o debug/searchStudent.o debug/statisticsOfCourseMenu.o debug/statisticsOfCourseMenuDisplay.o debug/statisticsOfStudentMenu.o debug/statisticsOfStudentMenuDisplay.o debug/studentProfileMenu.o debug/studentProfileMenuDisplay.o debug/studentResultMenu.o debug/studentResultMenuDisplay.o debug/totalNumberOfStudentAccordingToFaculty.o debug/totalNumberOfStudentAccordingToProgramme.o debug/totalNumberOfStudentAccordingToSemester.o debug/updateStudent.o debug/updateStudentResult.o debug/Course.o debug/CourseList.o debug/Student.o debug/StudentList.o  
 make.exe: Leaving directory `c:/Users/Nighthawks/Desktop/UMS/data structures and algorithms/Project'
  

@@ -1,14 +1,19 @@
 #include <iostream>
 
+#include "StudentList.h"
+
+//  Function to get user operation
 int getSelection(int numberOfChoise);
 void statisticsOfStudentMenuDisplay();
 
 
-void totalNumberOfStudentAccordingToFaculty();
-void totalNumberOfStudentAccordingToProgramme();
-void totalNumberOfStudentAccordingToSemester();
+void totalNumberOfStudentAccordingToFaculty(StudentList *studentList);
+void totalNumberOfStudentAccordingToProgramme(StudentList *studentList);
+void totalNumberOfStudentAccordingToSemester(StudentList *studentList);
 
-void statisticsOfStudentMenu()
+// 1. Display Main Menu
+// 2. User input choose operation
+void statisticsOfStudentMenu(StudentList *studentList)
 {
     enum Operation
     {
@@ -26,15 +31,15 @@ void statisticsOfStudentMenu()
         switch (selection)
         {
         case totalNumberOfStudentAccordingToFacultyOperation:
-            totalNumberOfStudentAccordingToFaculty();
+            totalNumberOfStudentAccordingToFaculty(studentList);
             break;
 
         case totalNumberOfStudentAccordingToProgrammeOperation:
-            totalNumberOfStudentAccordingToProgramme();
+            totalNumberOfStudentAccordingToProgramme(studentList);
             break;
 
         case totalNumberOfStudentAccordingToSemesterOperation:
-            totalNumberOfStudentAccordingToSemester();
+            totalNumberOfStudentAccordingToSemester(studentList);
             break;
         default:;
         }
