@@ -34,7 +34,7 @@ void updateStudentResult(StudentList *studentList, CourseList *courseList)
         std::cin >> courseId;
         Course *courseNode = courseList->searchNode(courseId);
 
-        if (courseNode != NULL)
+        if (courseNode != NULL && courseNode->getStudentId() == studentId)
         {
             std::cout << "New CGPA: ";
             double newCgpa{};
