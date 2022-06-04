@@ -4,8 +4,8 @@
 #include <iostream>
 #include <string>
 
-// #include "Course.h"
-#include "CourseList.h"
+#include "Course.h"
+// #include "CourseList.h"
 // #include "StudentList.h"
 
 class Student

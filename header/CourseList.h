@@ -5,6 +5,8 @@
 #include <string>
 
 #include "Course.h"
+#include "StudentList.h"
+
 
 class CourseList
 {
@@ -16,6 +18,10 @@ public:
     void deleteNode(std::string key);
     Course *searchNode(std::string key);
 
+
+    double cgpaAccordingtoSemester(StudentList *studentList,int sem);
+    double cgpaAccordingtoProgramme(StudentList *studentList,std::string programme,int sem);
+    double cgpaAccordingtoFaculty(StudentList *studentList,std::string faculty,int sem);
 };
 
 #endif

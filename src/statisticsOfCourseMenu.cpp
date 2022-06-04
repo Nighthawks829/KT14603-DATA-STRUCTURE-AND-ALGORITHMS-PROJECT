@@ -8,7 +8,7 @@ void statisticsOfCourseMenuDisplay();
 
 void cgpaAccordingToFaculty(StudentList *studentList, CourseList *courseList);
 void cgpaAccordingToProgramme(StudentList *studentList, CourseList *courseList);
-void cgpaAccordingToSemester();
+void cgpaAccordingToSemester(StudentList *studentList,CourseList *courseList);
 
 // 1. Display Main Menu
 // 2. User input choose operation
@@ -32,15 +32,15 @@ void statisticsOfCourseMenu(StudentList *studentList, CourseList *courseList)
         switch (selection)
         {
         case cgpaAccordingToFacultyOperation:
-            // cgpaAccordingToFaculty(studentList, courseList);
+            cgpaAccordingToFaculty(studentList, courseList);
             break;
 
         case cgpaAccordingToProgrammeOperation:
-            // cgpaAccordingToProgramme(studentList, courseList);
+            cgpaAccordingToProgramme(studentList, courseList);
             break;
 
         case cgpaAccordingToSemesterOperation:
-            // cgpaAccordingToSemester();
+            cgpaAccordingToSemester(studentList,courseList);
             break;
         default:;
         }

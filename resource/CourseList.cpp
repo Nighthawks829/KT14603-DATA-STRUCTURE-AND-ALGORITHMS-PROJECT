@@ -43,6 +43,7 @@ void CourseList::addNode(Course *node)
         head = node;
     }
 }
+
 void CourseList::deleteNode(std::string key)
 {
     Course *temp = head;
@@ -75,6 +76,7 @@ void CourseList::deleteNode(std::string key)
         delete temp;
     }
 }
+
 Course *CourseList::searchNode(std::string key)
 {
     Course *tmp = head;
@@ -88,3 +90,82 @@ Course *CourseList::searchNode(std::string key)
     }
     return NULL;
 }
+
+double CourseList::cgpaAccordingtoSemester(StudentList *studentList, int sem)
+{
+    Course *tmp = head;
+    double total = 0.0;
+    int number = 0;
+
+    while (tmp != NULL)
+    {
+        Student *node = studentList->searchNode(tmp->getStudentId());
+        if (node->getSemester() == sem)
+        {
+            total += tmp->getCgpa();
+            number += 1;
+        }
+        tmp = tmp->Next();
+    }
+    if (number == 0)
+    {
+        return 0;
+    }
+    else
+    {
+        return total / number;
+    }
+}
+
+double CourseList::cgpaAccordingtoProgramme(StudentList *studentList, std::string programme, int sem)
+{
+    Course *tmp = head;
+    double total = 0.0;
+    int number = 0;
+
+    while (tmp != NULL)
+    {
+        Student *node = studentList->searchNode(tmp->getStudentId());
+        if (node->getSemester() == sem && node->getProgramme() == programme)
+        {
+            total += tmp->getCgpa();
+            number += 1;
+        }
+        tmp = tmp->Next();
+    }
+    if (number == 0)
+    {
+        return 0;
+    }
+    else
+    {
+        return total / number;
+    }
+}
+
+double CourseList::cgpaAccordingtoFaculty(StudentList *studentList, std::string faculty, int sem)
+{
+    Course *tmp = head;
+    double total = 0.0;
+    int number = 0;
+
+    while (tmp != NULL)
+    {
+        Student *node = studentList->searchNode(tmp->getStudentId());
+        if (node->getSemester() == sem && node->getFaculty() == faculty)
+        {
+            total += tmp->getCgpa();
+            number += 1;
+        }
+        tmp = tmp->Next();
+    }
+    if (number == 0)
+    {
+        return 0;
+    }
+    else
+    {
+        return total / number;
+    }
+}
+

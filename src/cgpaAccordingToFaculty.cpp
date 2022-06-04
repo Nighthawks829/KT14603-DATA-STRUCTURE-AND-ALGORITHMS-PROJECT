@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include <limits>
+#include <iomanip>
 
 #include "StudentList.h"
 #include "CourseList.h"
@@ -22,17 +23,19 @@ void cgpaAccordingToFaculty(StudentList *studentList, CourseList *courseList)
               << "\t\tCGPA\n";
     std::cout << "\t\t\t----------------------------------------\n";
 
-    int total = 0;
+    double cgpa = 0.0;
+    std::cout << std::fixed;
+    std::cout << std::setprecision(2);
     for (size_t i{0}; i < constants::faculty.size(); i++)
     {
-        std::string facultyName = constants::faculty[i];
-        // int number = courseList->numberOfStaffAccordingToFaculty(constants::faculty[i]);
-        int number{0};
-        std::cout << "\t\t\t" << i + 1 << ".\t" << facultyName << "\t\t" << number << '\n';
-        total += number;
+        std::cout << "\t\t\t" << i + 1 << '.';
+        std::cout << "\t" << constants::faculty[i];
+        cgpa = courseList->cgpaAccordingtoFaculty(studentList, constants::faculty[i], semester);
+        std::cout << "\t\t" << cgpa;
+        std::cout << '\n';
     }
     std::cout << "\t\t\t----------------------------------------\n";
-    std::cout << "\t\t\t\t\t Total: " << total << '\n';
+    // std::cout << "\t\t\t\t\t Total: " << total << '\n';
 
     std::cout << "Press Enter to continue\n";
     // std::cin.clear();

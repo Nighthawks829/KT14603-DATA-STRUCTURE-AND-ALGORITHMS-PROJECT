@@ -3,8 +3,6 @@
 #include <limits>
 
 #include "StudentList.h"
-#include "CourseList.h"
-
 // 1. User input first name, last name, faculty, programme, year and semester
 // 2. Create new student node 
 // 3. Add new student node to the studentList
