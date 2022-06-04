@@ -26,7 +26,7 @@ void statisticsOfCourseMenu(StudentList *studentList, CourseList *courseList)
 
     while (selection != exit)
     {
-        // system("CLS");
+        system("CLS");
         statisticsOfCourseMenuDisplay();
         selection = getSelection(exit);
         switch (selection)

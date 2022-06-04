@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include <limits>
+#include <iomanip>
 
 #include "StudentList.h"
 #include "CourseList.h"
@@ -12,9 +13,9 @@
 
 void searchStudent(StudentList *studentList, CourseList *courseList)
 {
-    // system("CLS");
+    system("CLS");
     std::cout << "\t\t============================================================\n";
-    std::cout << "\t\t\tStudent Results Management System\n";
+    std::cout << std::setw(65) << "Student Results Management System\n";
     std::cout << "\t\t\t\t\tSearch Student\n";
     std::cout << "\t\t============================================================\n\n";
 
@@ -33,11 +34,9 @@ void searchStudent(StudentList *studentList, CourseList *courseList)
         std::cout << "Faculty: " << studentNode->getFaculty() << '\n';
         std::cout << "Programme: " << studentNode->getProgramme() << '\n';
         std::cout << "Year: " << studentNode->getYear() << '\n';
-        std::cout << "Semester: " << studentNode->getSemester() << '\n';
+        std::cout << "Semester: " << studentNode->getSemester() << "\n\n";
 
         courseList->print(studentId);
-        // courseList->printResult(studentList);
-        std::cout << "\n\n";
     }
 
     else

@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include <limits>
+#include <iomanip>
 
 #include "StudentList.h"
 #include "CourseList.h"
@@ -15,10 +16,10 @@
 
 void addStudentResult(StudentList *studentList, CourseList *courseList)
 {
-    // system("CLS");
+    system("CLS");
     std::cout << "\t\t============================================================\n";
-    std::cout << "\t\t\tStudent Results Management System\n";
-    std::cout << "\t\t\t\tStudent Result Menu\n";
+    std::cout << std::setw(65) << "Student Results Management System\n";
+    std::cout << std::setw(57) << "Add Student Result\n";
     std::cout << "\t\t============================================================\n";
 
     std::cout << "Student ID: ";

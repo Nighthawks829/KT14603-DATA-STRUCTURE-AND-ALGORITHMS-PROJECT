@@ -1,9 +1,11 @@
 #include <iostream>
+#include <iomanip>
+
 void studentResultMenuDisplay()
 {
     std::cout << "\t\t============================================================\n";
-    std::cout << "\t\t\tStudent Results Management System\n";
-    std::cout << "\t\t\t\tStudent Result Menu\n";
+    std::cout << std::setw(65)<<"Student Results Management System\n";
+    std::cout << "\t\t\t\t     Student Result Menu\n";
     std::cout << "\t\t============================================================\n";
 
     std::cout << "\t\t\t\t1) Add New Student Result\n";

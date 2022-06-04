@@ -1,16 +1,17 @@
 #include <iostream>
 #include <string>
 #include <limits>
+#include <iomanip>
 
 #include "StudentList.h"
 // 1. User input first name, last name, faculty, programme, year and semester
-// 2. Create new student node 
+// 2. Create new student node
 // 3. Add new student node to the studentList
 void addNewStudent(StudentList *studentList)
 {
-    // system("CLS");
+    system("CLS");
     std::cout << "\t\t============================================================\n";
-    std::cout << "\t\t\tStudent Results Management System\n";
+    std::cout << std::setw(65) << "Student Results Management System\n";
     std::cout << "\t\t\t\t\tAdd New Student\n";
     std::cout << "\t\t============================================================\n\n";
 
@@ -40,7 +41,7 @@ void addNewStudent(StudentList *studentList)
     int semester;
     std::cin >> semester;
 
-    Student *newStudent = new Student(firstName,lastName,faculty,programme,year,semester);
+    Student *newStudent = new Student(firstName, lastName, faculty, programme, year, semester);
     studentList->addNode(newStudent);
     std::cout << "Successfully Added New Student\n";
 

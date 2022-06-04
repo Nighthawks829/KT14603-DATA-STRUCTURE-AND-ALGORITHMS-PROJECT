@@ -27,7 +27,7 @@ void studentResultMenu(StudentList *studentList, CourseList *courseList)
     int selection{};
     while (selection != exit)
     {
-        // system("CLS");
+        system("CLS");
         studentResultMenuDisplay();
         selection = getSelection(maxOperation - 1);
         switch (selection)

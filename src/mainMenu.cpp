@@ -30,7 +30,7 @@ void mainMenu(StudentList *studentList, CourseList *courseList)
     int selection{};
     while (selection != exitMenu)
     {
-        // system("CLS");
+        system("CLS");
         mainMenuDisplay();
 
         selection = getSelection(exitMenu);

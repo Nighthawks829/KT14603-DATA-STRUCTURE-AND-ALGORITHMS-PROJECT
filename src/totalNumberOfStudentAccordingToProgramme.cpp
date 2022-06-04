@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include <limits>
+#include <iomanip>
 
 #include "StudentList.h"
 #include "Constants.h"
@@ -12,28 +13,29 @@
 
 void totalNumberOfStudentAccordingToProgramme(StudentList *studentList)
 {
+    system("CLS");
     std::cout << "\t\t============================================================\n";
-    std::cout << "\t\t\tStudent Results Management System\n";
-    std::cout << "\t\t\t\tView Statistics Of Student Menu\n";
+    std::cout << std::setw(65) << "Student Results Management System\n";
+    std::cout << "\t\t\t  Total Number Of Student According To Programme\n";
     std::cout << "\t\t============================================================\n";
 
     std::cout << "Programme ID: ";
     std::string programmeId;
     std::cin >> programmeId;
     // std::vector<int> total(constants::level.size(), 0);
-
-    std::cout << "\t\tNo.\tFaculty";
+    std::cout << "\t\t------------------------------------------------------------\n";
+    std::cout << "\t\t\tNo.\tFaculty";
 
     for (int i{0}; i < constants::semseter; i++)
     {
-        std::cout << "\tSem " << (i + 1);
+        std::cout << "\t Sem " << (i + 1);
     }
-    std::cout << "\n\t\t\t----------------------------------------\n";
+    std::cout << "\n\t\t------------------------------------------------------------\n";
 
     for (size_t faculty{0}; faculty < constants::faculty.size(); faculty++)
     {
         std::string facultyName = constants::faculty[faculty];
-        std::cout << "\t\t" << faculty + 1 << ".\t" << facultyName;
+        std::cout << "\t\t\t" << faculty + 1 << ".\t" << facultyName;
 
         for (int semster{0}; semster < constants::semseter; semster++)
         {
@@ -44,9 +46,10 @@ void totalNumberOfStudentAccordingToProgramme(StudentList *studentList)
         std::cout << '\n';
     }
 
-    std::cout << "\t--------------------------------------------------------------------------------\n";
+    std::cout << "\t\t------------------------------------------------------------\n";
 
     std::cout << "Press Enter to continue\n";
 
     std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+    std::cin.get();
 }

@@ -1,9 +1,10 @@
 #include <iostream>
+#include <iomanip>
 
 void mainMenuDisplay()
 {
     std::cout << "\t\t============================================================\n";
-    std::cout << "\t\t\tStudent Results Management System\n";
+    std::cout << std::setw(65) << "Student Results Management System\n";
     std::cout << "\t\t\t\t\tMain Menu\n";
     std::cout << "\t\t============================================================\n";
 

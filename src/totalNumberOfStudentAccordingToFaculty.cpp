@@ -2,6 +2,7 @@
 #include <string>
 #include <limits>
 #include <vector>
+#include <iomanip>
 
 #include "Constants.h"
 #include "StudentList.h"
@@ -16,19 +17,21 @@
 
 void totalNumberOfStudentAccordingToFaculty(StudentList *studentList)
 {
+    system("CLS");
     std::cout << "\t\t============================================================\n";
-    std::cout << "\t\t\tStudent Results Management System\n";
-    std::cout << "\t\t\t\tView Statistics Of Student Menu\n";
+    std::cout << std::setw(65) << "Student Results Management System\n";
+    std::cout  << "\t\t\t  Total Number Of Student According To Faculty\n";
     std::cout << "\t\t============================================================\n";
 
+    std::cout << "\n\t\t------------------------------------------------------------\n";
     std::cout << "\t\tNo.\tFaculty";
 
     for (int i{0}; i < constants::semseter; i++)
     {
-        std::cout << "\tSem " << (i + 1);
+        std::cout << "\t Sem " << (i + 1);
     }
     std::cout << "\tTotal";
-    std::cout << "\n\t\t\t----------------------------------------\n";
+    std::cout << "\n\t\t------------------------------------------------------------\n";
 
     // total number of student in the university
     int totalStudent{0};
@@ -50,8 +53,10 @@ void totalNumberOfStudentAccordingToFaculty(StudentList *studentList)
         // calculate total number of student in the university
         totalStudent += total;
     }
-    std::cout << "\t\t\t----------------------------------------\n";
+    std::cout << "\t\t------------------------------------------------------------\n";
     std::cout << "\t\t\t\t\t\t  Total Student: " << totalStudent << '\n';
+    std::cout << "\t\t------------------------------------------------------------\n";
 
     std::cout << "Press Enter to continue\n";
+    std::cin.get();
 }

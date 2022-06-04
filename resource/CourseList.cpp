@@ -12,10 +12,10 @@ void CourseList::print(std::string studentId)
     {
         if (tmp->getStudentId() == studentId)
         {
-            std::cout << tmp->getId() << '\n';
-            std::cout << tmp->getName() << '\n';
-            std::cout << tmp->getSemester() << '\n';
-            std::cout << tmp->getCgpa() << "\n\n";
+            std::cout << "Course ID: " << tmp->getId() << '\n';
+            std::cout << "Course Name: " << tmp->getName() << '\n';
+            std::cout << "Semester: " << tmp->getSemester() << '\n';
+            std::cout << "CGPA: " << tmp->getCgpa() << "\n\n";
         }
         tmp = tmp->Next();
     }
@@ -168,4 +168,3 @@ double CourseList::cgpaAccordingtoFaculty(StudentList *studentList, std::string 
         return total / number;
     }
 }
-

@@ -2,6 +2,7 @@
 #include <string>
 #include <limits>
 #include <vector>
+#include <iomanip>
 
 #include "StudentList.h"
 #include "Constants.h"
@@ -15,18 +16,20 @@
 
 void totalNumberOfStudentAccordingToSemester(StudentList *studentList)
 {
+    system("CLS");
     std::cout << "\t\t============================================================\n";
-    std::cout << "\t\t\tStudent Results Management System\n";
-    std::cout << "\t\t\t\tView Statistics Of Student Menu\n";
+    std::cout << std::setw(65) << "Student Results Management System\n";
+    std::cout << "\t\t\t  Total Number Of Student According To Semester\n";
     std::cout << "\t\t============================================================\n";
 
-    std::cout << "\t\tNo.\tFaculty";
+    std::cout << "\n\t\t------------------------------------------------------------\n";
+    std::cout << "\t\t\tNo.\tFaculty";
 
     for (int i{0}; i < constants::semseter; i++)
     {
-        std::cout << "\tSem " << (i + 1);
+        std::cout << "\t Sem " << (i + 1);
     }
-    std::cout << "\n\t\t\t----------------------------------------\n";
+    std::cout << "\n\t\t------------------------------------------------------------\n";
 
     // Vector store the number of student for each semester
     std::vector<int> total(constants::semseter, 0);
@@ -34,7 +37,7 @@ void totalNumberOfStudentAccordingToSemester(StudentList *studentList)
     for (size_t i{0}; i < constants::faculty.size(); i++)
     {
         std::string facultyName = constants::faculty[i];
-        std::cout << "\t\t" << i + 1 << ".\t" << facultyName;
+        std::cout << "\t\t\t" << i + 1 << ".\t" << facultyName;
         for (size_t semester{0}; semester < static_cast<size_t>(constants::semseter); semester++)
         {
             // total number of student each faculty by semester
@@ -47,15 +50,18 @@ void totalNumberOfStudentAccordingToSemester(StudentList *studentList)
         std::cout << '\n';
     }
 
-    std::cout << "\t\t\t----------------------------------------\n";
+    std::cout << "\t\t------------------------------------------------------------\n";
 
-    std::cout << "\t\t\t"
+    std::cout << "\t\t\t\t"
               << "Total:";
 
     for (size_t semester{0}; semester < constants::semseter; semester++)
     {
         std::cout << "\t  " << total[semester];
     }
+    std::cout << "\n\t\t------------------------------------------------------------\n";
+
     std::cout << '\n';
     std::cout << "Press Enter to continue\n";
+    std::cin.get();
 }

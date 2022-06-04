@@ -9,16 +9,18 @@
 
 void cgpaAccordingToSemester(StudentList *studentList, CourseList *courseList)
 {
+    system("CLS");
     std::cout << "\t\t============================================================\n";
-    std::cout << "\t\t\tStudent Results Management System\n";
-    std::cout << "\t\t\t\tView Statistics Of Result Menu\n";
+    std::cout << std::setw(65) << "Student Results Management System\n";
+    std::cout << std::setw(66) << "Student Result According To Semester\n";
     std::cout << "\t\t============================================================\n";
 
+    std::cout << "\n\t\t------------------------------------------------------------\n";
     // for(int i{0};i<constants::semester.size();i++)
-    std::cout << "\t\t\tNo."
-              << "\tSemester"
+    std::cout << "\t\t\t\tNo."
+              << "\t Semester"
               << "\tCGPA\n";
-    std::cout << "\t\t\t----------------------------------------\n";
+    std::cout << "\t\t------------------------------------------------------------\n";
 
     double cgpa = 0.0;
     std::cout << std::fixed;
@@ -26,14 +28,14 @@ void cgpaAccordingToSemester(StudentList *studentList, CourseList *courseList)
 
     for (size_t i{0}; i < constants::semseter; i++)
     {
-        std::cout << "\t\t\t" << i + 1 << '.';
+        std::cout << "\t\t\t\t" << i + 1 << '.';
         std::cout << "\tSemester " << i + 1;
         cgpa = courseList->cgpaAccordingtoSemester(studentList, i + 1);
         std::cout << "\t" << cgpa;
         std::cout << '\n';
     }
 
-    std::cout << "\t\t\t----------------------------------------\n";
+    std::cout << "\t\t------------------------------------------------------------\n";
 
     std::cout << "Press Enter to continue\n";
     std::cin.get();

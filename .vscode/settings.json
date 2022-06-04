@@ -57,7 +57,9 @@
         "numeric": "cpp",
         "random": "cpp",
         "string_view": "cpp",
-        "numbers": "cpp"
+        "numbers": "cpp",
+        "iomanip": "cpp",
+        "sstream": "cpp"
     },
     "makefile.launchConfigurations": [
         {

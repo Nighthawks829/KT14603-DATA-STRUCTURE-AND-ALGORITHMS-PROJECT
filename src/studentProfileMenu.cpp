@@ -29,7 +29,7 @@ void studentProfileMenu(StudentList *studentList, CourseList *courseList)
     int selection{};
     while (selection != exitMenu)
     {
-        // system("CLS");
+        system("CLS");
         studentProfileMenuDisplay();
         selection = getSelection(maxOperation - 1);
         switch (selection)

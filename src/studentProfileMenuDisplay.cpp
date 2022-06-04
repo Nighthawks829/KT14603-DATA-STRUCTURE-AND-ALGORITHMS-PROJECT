@@ -1,10 +1,11 @@
 #include <iostream>
+#include <iomanip>
 
 void studentProfileMenuDisplay()
 {
     std::cout << "\t\t============================================================\n";
-    std::cout << "\t\t\tStudent Results Management System\n";
-    std::cout << "\t\t\t\tStaff Profile Menu\n";
+    std::cout << std::setw(65)<<"Student Results Management System\n";
+    std::cout <<"\t\t\t\t     Staff Profile Menu\n";
     std::cout << "\t\t============================================================\n";
 
     std::cout << "\t\t\t\t1) Add New Student\n";
