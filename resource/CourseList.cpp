@@ -14,7 +14,6 @@ void CourseList::print(std::string studentId)
         {
             std::cout << "Course ID: " << tmp->getId() << '\n';
             std::cout << "Course Name: " << tmp->getName() << '\n';
-            std::cout << "Semester: " << tmp->getSemester() << '\n';
             std::cout << "CGPA: " << tmp->getCgpa() << "\n\n";
         }
         tmp = tmp->Next();

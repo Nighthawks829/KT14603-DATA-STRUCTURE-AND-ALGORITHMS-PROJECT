@@ -37,7 +37,7 @@ void totalNumberOfStudentAccordingToSemester(StudentList *studentList)
     for (size_t i{0}; i < constants::faculty.size(); i++)
     {
         std::string facultyName = constants::faculty[i];
-        std::cout << "\t\t\t" << i + 1 << ".\t" << facultyName;
+        std::cout << "\t\t\t" << i + 1 << ".\t " << facultyName;
         for (size_t semester{0}; semester < static_cast<size_t>(constants::semseter); semester++)
         {
             // total number of student each faculty by semester

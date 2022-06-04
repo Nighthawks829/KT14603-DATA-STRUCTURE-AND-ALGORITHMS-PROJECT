@@ -35,7 +35,7 @@ void totalNumberOfStudentAccordingToProgramme(StudentList *studentList)
     for (size_t faculty{0}; faculty < constants::faculty.size(); faculty++)
     {
         std::string facultyName = constants::faculty[faculty];
-        std::cout << "\t\t\t" << faculty + 1 << ".\t" << facultyName;
+        std::cout << "\t\t\t" << faculty + 1 << ".\t " << facultyName;
 
         for (int semster{0}; semster < constants::semseter; semster++)
         {

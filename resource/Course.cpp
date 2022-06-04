@@ -33,11 +33,6 @@ void Course::setName(std::string name)
     m_name = name;
 }
 
-void Course::setSemester(int semester)
-{
-    m_semester = semester;
-}
-
 void Course::setCgpa(double cgpa)
 {
     m_cgpa = cgpa;
@@ -56,11 +51,6 @@ std::string Course::getId()
 std::string Course::getName()
 {
     return m_name;
-}
-
-int Course::getSemester()
-{
-    return m_semester;
 }
 
 double Course::getCgpa()

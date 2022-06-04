@@ -40,22 +40,21 @@ int main()
     studentList->addNode(studentNode10);
     studentList->addNode(studentNode11);
 
-    Course *courseNode1 = new Course("HC01", "Course1", 1, 1.5);
+    Course *courseNode1 = new Course("HC01", "Course1", 1.5);
     courseNode1->setStudentId(studentNode1->getId());
     courseList->addNode(courseNode1);
 
-    Course *courseNode2 = new Course("UL123", "Course2", 2, 3);
+    Course *courseNode2 = new Course("UL123", "Course2", 3);
     courseNode2->setStudentId(studentNode1->getId());
     courseList->addNode(courseNode2);
 
-    Course *courseNode3 = new Course("UW456", "Course3", 3, 4.0);
+    Course *courseNode3 = new Course("UW456", "Course3", 4.0);
     courseNode3->setStudentId(studentNode1->getId());
     courseList->addNode(courseNode3);
 
-    Course *courseNode4 = new Course("UJ789", "Course3", 3, 4.0);
+    Course *courseNode4 = new Course("UJ789", "Course3", 4.0);
     courseNode4->setStudentId(studentNode2->getId());
     courseList->addNode(courseNode4);
-    
 
     // Start Main Menu Program function
     mainMenu(studentList, courseList);

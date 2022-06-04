@@ -47,11 +47,6 @@ void addStudentResult(StudentList *studentList, CourseList *courseList)
             std::cin >> courseName;
             courseNode->setName(courseName);
 
-            std::cout << "Semester: ";
-            int semester;
-            std::cin >> semester;
-            courseNode->setSemester(semester);
-
             std::cout << "CGPA: ";
             double cgpa{};
             std::cin >> cgpa;
