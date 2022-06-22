@@ -13,6 +13,7 @@ void updateStudent(StudentList *studentList);
 void deleteStudent(StudentList *studentList);
 void searchStudent(StudentList *studentList, CourseList *courseList);
 
+// Student Profile Menu
 // 1. Display menu
 // 2. User input choose operation
 void studentProfileMenu(StudentList *studentList, CourseList *courseList)

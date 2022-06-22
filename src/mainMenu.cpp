@@ -12,12 +12,11 @@ void studentResultMenu(StudentList *studentList,CourseList *courseList);
 void statisticsOfStudentMenu(StudentList *studentList);
 void statisticsOfCourseMenu(StudentList *studentList,CourseList *courseList);
 
-
+// Main menu of the system
 // 1. Display Main Menu
 // 2. User input choose operation
 void mainMenu(StudentList *studentList, CourseList *courseList)
 {
-
     enum Operation
     {
         studentProfileMenuOperation = 1,

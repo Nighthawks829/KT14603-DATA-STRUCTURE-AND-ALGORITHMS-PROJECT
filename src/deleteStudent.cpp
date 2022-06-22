@@ -5,6 +5,7 @@
 
 #include "StudentList.h"
 
+// Delete the student record from the student list by inputted student ID
 // 1. User input student id
 // 2. Search the node inside the studentList to check the existence of the student
 // 3. If the node exist delete the node from the list
@@ -17,14 +18,17 @@ void deleteStudent(StudentList *studentList)
     std::cout << "\t\t\t\t\tDelete Student\n";
     std::cout << "\t\t============================================================\n\n";
 
+    // User input student id
     std::cout << "Delete Student ID: ";
     std::string studentId;
     std::cin >> studentId;
 
     Student *studentNode = studentList->searchNode(studentId);
 
+    // Check the existence of the student in the studentList
     if (studentNode != NULL)
     {
+        // Delete the student node from the list
         studentList->deleteNode(studentId);
         std::cout << "Successfully Delete Student " << studentId << '\n';
     }

@@ -7,6 +7,8 @@
 #include "CourseList.h"
 #include "Constants.h"
 
+// Display statistic of the CGPA for each faculty with the inputed semester
+
 void cgpaAccordingToFaculty(StudentList *studentList, CourseList *courseList)
 {
     system("CLS");
@@ -15,6 +17,7 @@ void cgpaAccordingToFaculty(StudentList *studentList, CourseList *courseList)
     std::cout << std::setw(66) << "Student Result According To Faculty\n";
     std::cout << "\t\t============================================================\n";
 
+    // User input query semester
     std::cout << "Semester: ";
     int semester{};
     std::cin >> semester;
@@ -28,6 +31,8 @@ void cgpaAccordingToFaculty(StudentList *studentList, CourseList *courseList)
     double cgpa = 0.0;
     std::cout << std::fixed;
     std::cout << std::setprecision(2);
+
+    // Search and output the CGPA result for each faculty 
     for (size_t i{0}; i < constants::faculty.size(); i++)
     {
         std::cout << "\t\t\t\t" << i + 1 << '.';

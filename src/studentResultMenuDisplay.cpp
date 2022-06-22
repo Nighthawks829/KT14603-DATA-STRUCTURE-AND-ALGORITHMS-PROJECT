@@ -1,6 +1,7 @@
 #include <iostream>
 #include <iomanip>
 
+// Student Result Menu
 void studentResultMenuDisplay()
 {
     std::cout << "\t\t============================================================\n";

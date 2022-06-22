@@ -5,6 +5,7 @@
 
 #include "StudentList.h"
 
+// Update the student information 
 // 1. User input student id
 // 2. Search the node inside the studentList to check the existence of the student
 // 3. User input student new information
@@ -18,14 +19,16 @@ void updateStudent(StudentList *studentList)
     std::cout << std::setw(57) << "Update Student Data\n";
     std::cout << "\t\t============================================================\n\n";
 
+// Input student id
     std::cout << "Enter Student ID: ";
     std::string studentId;
     std::cin >> studentId;
 
     Student *studentNode = studentList->searchNode(studentId);
-
+    // Check the existence of the student in the studentList
     if (studentNode != NULL)
     {
+        // If the student exist, update the student information
         std::cout << "First Name: ";
         std::string firstName;
         std::getline(std::cin >> std::ws, firstName);

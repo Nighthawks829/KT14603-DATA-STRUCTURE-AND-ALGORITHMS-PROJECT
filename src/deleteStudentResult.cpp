@@ -6,6 +6,7 @@
 #include "StudentList.h"
 #include "CourseList.h"
 
+// Delete the student course result node from the course list
 // 1. User input student id
 // 2. Search the student node inside the studentList to check the existence of the student
 // 3. User input course id
@@ -19,6 +20,8 @@ void deleteStudentResult(StudentList *studentList, CourseList *courseList)
     std::cout << std::setw(65) << "Student Results Management System\n";
     std::cout << std::setw(58) << "Delete Student Result\n";
     std::cout << "\t\t============================================================\n\n";
+
+    // User input student id
     std::cout << "Student ID: ";
     std::string studentId;
     std::cin >> studentId;
@@ -26,6 +29,7 @@ void deleteStudentResult(StudentList *studentList, CourseList *courseList)
     Student *studentNode = studentList->searchNode(studentId);
     courseList->print(studentId);
 
+    // Check the existence of the student in the studentList
     if (studentNode != NULL)
     {
         // studentList->deleteNode(studentId);
@@ -33,8 +37,10 @@ void deleteStudentResult(StudentList *studentList, CourseList *courseList)
         std::string courseId;
         std::cin >> courseId;
         Course *courseNode = courseList->searchNode(courseId);
+        // Check the existence of the course in this courseList
         if (courseNode != NULL)
         {
+            // If the course node is found, delete the course node from the course list
             courseList->deleteNode(courseId);
             std::cout << "Successfully Delete Result " + courseId << '\n';
         }

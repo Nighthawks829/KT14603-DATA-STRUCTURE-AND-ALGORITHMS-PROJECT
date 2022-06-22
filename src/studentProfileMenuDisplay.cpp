@@ -1,6 +1,7 @@
 #include <iostream>
 #include <iomanip>
 
+// Student Profile Menu
 void studentProfileMenuDisplay()
 {
     std::cout << "\t\t============================================================\n";

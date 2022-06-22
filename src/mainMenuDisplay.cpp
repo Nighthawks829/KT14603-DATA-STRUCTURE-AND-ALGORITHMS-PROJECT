@@ -1,6 +1,7 @@
 #include <iostream>
 #include <iomanip>
 
+// Main menu of the system
 void mainMenuDisplay()
 {
     std::cout << "\t\t============================================================\n";

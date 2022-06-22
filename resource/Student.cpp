@@ -19,11 +19,8 @@ Student *Student::Next()
     return m_next;
 }
 
-// void Student::setId(std::string id)
-// {
-//     m_id = id;
-// }
 
+// Mutator
 void Student::setFirstName(std::string firstName)
 {
     m_firstName = firstName;
@@ -54,6 +51,7 @@ void Student::setSemester(int semester)
     m_semester = semester;
 }
 
+// Accessor
 std::string Student::getId()
 {
     return m_id;

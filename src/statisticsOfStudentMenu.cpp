@@ -11,6 +11,7 @@ void totalNumberOfStudentAccordingToFaculty(StudentList *studentList);
 void totalNumberOfStudentAccordingToProgramme(StudentList *studentList);
 void totalNumberOfStudentAccordingToSemester(StudentList *studentList);
 
+// Statistics of Student Menu
 // 1. Display Main Menu
 // 2. User input choose operation
 void statisticsOfStudentMenu(StudentList *studentList)

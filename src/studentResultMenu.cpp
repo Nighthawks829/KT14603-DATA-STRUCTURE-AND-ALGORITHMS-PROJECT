@@ -11,6 +11,7 @@ void addStudentResult(StudentList *studentList, CourseList *courseList);
 void updateStudentResult(StudentList *studentList, CourseList *courseList);
 void deleteStudentResult(StudentList *studentList, CourseList *courseList);
 
+// Student Result Menu
 // 1. Display Main Menu
 // 2. User input choose operation
 void studentResultMenu(StudentList *studentList, CourseList *courseList)

@@ -4,6 +4,8 @@
 #include <iomanip>
 
 #include "StudentList.h"
+
+// Add the new student to the student list
 // 1. User input first name, last name, faculty, programme, year and semester
 // 2. Create new student node
 // 3. Add new student node to the studentList
@@ -17,6 +19,7 @@ void addNewStudent(StudentList *studentList)
 
     std::cout << "Input new Student Information:\n";
 
+    // User input first name, last name, faculty, programme, year and semester
     std::cout << "First Name: ";
     std::string firstName;
     std::getline(std::cin >> std::ws, firstName);
@@ -41,6 +44,7 @@ void addNewStudent(StudentList *studentList)
     int semester;
     std::cin >> semester;
 
+    // Create new student node and add to the studentList
     Student *newStudent = new Student(firstName, lastName, faculty, programme, year, semester);
     studentList->addNode(newStudent);
     std::cout << "Successfully Added New Student\n";

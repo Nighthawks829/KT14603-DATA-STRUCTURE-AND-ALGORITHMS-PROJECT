@@ -10,6 +10,7 @@ void cgpaAccordingToFaculty(StudentList *studentList, CourseList *courseList);
 void cgpaAccordingToProgramme(StudentList *studentList, CourseList *courseList);
 void cgpaAccordingToSemester(StudentList *studentList,CourseList *courseList);
 
+// Stastics of Course Menu
 // 1. Display Main Menu
 // 2. User input choose operation
 void statisticsOfCourseMenu(StudentList *studentList, CourseList *courseList)

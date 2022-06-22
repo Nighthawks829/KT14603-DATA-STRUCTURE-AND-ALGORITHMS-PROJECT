@@ -1,6 +1,7 @@
 #include <iomanip>
 #include <iostream>
 
+// Stastics of Student Menu
 void statisticsOfStudentMenuDisplay()
 {
     std::cout << "\t\t============================================================\n";

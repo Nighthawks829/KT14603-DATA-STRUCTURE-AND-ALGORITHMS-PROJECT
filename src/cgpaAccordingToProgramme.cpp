@@ -7,18 +7,17 @@
 #include "CourseList.h"
 #include "Constants.h"
 
+// Display statistic of the CGPA for each programme with the inputed semester
+
 void cgpaAccordingToProgramme(StudentList *studentList, CourseList *courseList)
 {
     system("CLS");
     std::cout << "\t\t============================================================\n";
     std::cout << std::setw(65) << "Student Results Management System\n";
     std::cout << std::setw(66) << "Student Result According To Programme\n";
-    std::cout << "\t\t============================================================\n";
+    std::cout << "\t\t============================================================\n";  
 
-    // std::cout << "Programme: ";
-    // std::string Programme;
-    // std::cin >> Programme;
-
+    // USer input query semester
     std::cout << "Semester: ";
     int semester{0};
     std::cin >> semester;
@@ -32,6 +31,8 @@ void cgpaAccordingToProgramme(StudentList *studentList, CourseList *courseList)
     double cgpa = 0.0;
     std::cout << std::fixed;
     std::cout << std::setprecision(2);
+
+    // Search and output the CGPA result for each programme
     for (size_t i{0}; i < constants::programme.size(); i++)
     {
         std::cout << "\t\t\t\t" << i + 1 << '.';

@@ -4,6 +4,7 @@
 #include "Student.h"
 #include "StudentList.h"
 
+// Print the information for each student node
 void StudentList::print()
 {
     Student *tmp = head;
@@ -20,6 +21,7 @@ void StudentList::print()
     }
 }
 
+// Add a new student node to the student list
 void StudentList::addNode(Student *node)
 {
     Student *tmp = head;
@@ -41,6 +43,7 @@ void StudentList::addNode(Student *node)
     }
 }
 
+// Delete a student node from the student list
 void StudentList::deleteNode(std::string key)
 {
     Student *temp = head;
@@ -74,6 +77,7 @@ void StudentList::deleteNode(std::string key)
     }
 }
 
+// Search for a student node in the student list
 Student *StudentList::searchNode(std::string key)
 {
     Student *tmp = head;
@@ -88,6 +92,7 @@ Student *StudentList::searchNode(std::string key)
     return NULL;
 }
 
+// Calulate and return the number of students in the list according to the faculty and semester
 int StudentList::numberOfStudentAccordingToFaculty(std::string facultyName, int semester)
 {
     int numberStudent{0};
@@ -103,6 +108,7 @@ int StudentList::numberOfStudentAccordingToFaculty(std::string facultyName, int 
     return numberStudent;
 }
 
+// Calulate and return the number of students in the list according to the programme in the faculty and semester
 int StudentList::totalStudentAccordingToProgramme(std::string facultyName, std::string programmeId, int semester)
 {
     int numberStudent{0};

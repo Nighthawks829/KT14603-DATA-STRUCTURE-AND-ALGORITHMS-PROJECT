@@ -4,6 +4,7 @@
 #include "Course.h"
 #include "CourseList.h"
 
+// Print the information for each course node
 void CourseList::print(std::string studentId)
 {
 
@@ -20,6 +21,7 @@ void CourseList::print(std::string studentId)
     }
 }
 
+// Add a new course node to the course list
 void CourseList::addNode(Course *node)
 {
     // Create a new node
@@ -43,6 +45,7 @@ void CourseList::addNode(Course *node)
     }
 }
 
+// Delete a course node from the course list
 void CourseList::deleteNode(std::string key)
 {
     Course *temp = head;
@@ -76,6 +79,7 @@ void CourseList::deleteNode(std::string key)
     }
 }
 
+// Search course node existence in the course list 
 Course *CourseList::searchNode(std::string key)
 {
     Course *tmp = head;
@@ -90,6 +94,7 @@ Course *CourseList::searchNode(std::string key)
     return NULL;
 }
 
+// Calulate and return the average CGPA of a semester
 double CourseList::cgpaAccordingtoSemester(StudentList *studentList, int sem)
 {
     Course *tmp = head;
@@ -116,6 +121,7 @@ double CourseList::cgpaAccordingtoSemester(StudentList *studentList, int sem)
     }
 }
 
+// Calulate and return the average CGPA of a programme with a given semester
 double CourseList::cgpaAccordingtoProgramme(StudentList *studentList, std::string programme, int sem)
 {
     Course *tmp = head;
@@ -142,6 +148,7 @@ double CourseList::cgpaAccordingtoProgramme(StudentList *studentList, std::strin
     }
 }
 
+// Calulate and return the average CGPA of all faculty with a given semester
 double CourseList::cgpaAccordingtoFaculty(StudentList *studentList, std::string faculty, int sem)
 {
     Course *tmp = head;

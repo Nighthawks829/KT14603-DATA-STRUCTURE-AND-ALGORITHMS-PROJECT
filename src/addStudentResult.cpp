@@ -7,10 +7,11 @@
 #include "CourseList.h"
 #include "Course.h"
 
+// Add new student result to the course list
 // 1. User input student id
 // 2. Search the node inside the studentList to check the existence of the student
 // 3. User input the course id, course name and student cgpa
-// 4. create new course node and update the new cousre node
+// 4. create new course node
 // 5. Add the new couse node to the course list
 // 6. User choose continue to add the new course or go out the loop
 
@@ -22,6 +23,7 @@ void addStudentResult(StudentList *studentList, CourseList *courseList)
     std::cout << std::setw(57) << "Add Student Result\n";
     std::cout << "\t\t============================================================\n";
 
+    // Input student id
     std::cout << "Student ID: ";
     std::string studentId;
     std::cin >> studentId;
@@ -29,11 +31,14 @@ void addStudentResult(StudentList *studentList, CourseList *courseList)
     Student *studentNode = studentList->searchNode(studentId);
     std::string continueAdd = "y";
 
+    // Check the existence of the student in the studentList
     if (studentNode != NULL)
     {
+        // Continue to add the new course if the user choose y or Y
         while (continueAdd == "y" || continueAdd == "Y")
         {
 
+            // Input course id, course name and student cgpa
             Course *courseNode = new Course();
             courseNode->setStudentId(studentId);
 
@@ -55,6 +60,7 @@ void addStudentResult(StudentList *studentList, CourseList *courseList)
             std::cout << "Continue to add Result? (Y/N): ";
             std::cin >> continueAdd;
 
+            // Add the new course node to the course list
             courseList->addNode(courseNode);
         }
     }

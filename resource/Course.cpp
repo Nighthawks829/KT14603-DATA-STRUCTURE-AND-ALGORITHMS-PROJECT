@@ -4,11 +4,6 @@
 #include "Course.h"
 #include "CourseList.h"
 
-void Course::setNext(Course *next)
-{
-    m_next = next;
-}
-
 std::string Course::Data()
 {
     return m_id;
@@ -16,6 +11,12 @@ std::string Course::Data()
 Course *Course::Next()
 {
     return m_next;
+}
+
+// Mutator
+void Course::setNext(Course *next)
+{
+    m_next = next;
 }
 
 void Course::setId(std::string id)
@@ -38,6 +39,7 @@ void Course::setCgpa(double cgpa)
     m_cgpa = cgpa;
 }
 
+// Accessor
 std::string Course::getStudentId()
 {
     return m_studentId;
