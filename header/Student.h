@@ -27,7 +27,8 @@ public:
     Student(std::string firstName, std::string lastName, std::string faculty, std::string programme, int year, int semester)
         : m_firstName{firstName}, m_lastName{lastName}, m_faculty{faculty}, m_programme{programme}, m_year{year}, m_semester{semester}
     {
-        m_id = faculty + std::to_string(year) + std::to_string(1000 + idNumber);
+        // Create a new unique ID for the student
+        m_id = faculty + std::to_string(year) + std::to_string((1000 + idNumber) % 10000);
         idNumber += 1;
     }
 

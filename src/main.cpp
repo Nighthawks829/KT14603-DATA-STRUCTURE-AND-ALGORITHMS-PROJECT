@@ -14,8 +14,7 @@ int main()
     StudentList *studentList = new StudentList();
     CourseList *courseList = new CourseList();
 
-    // Test Data
-    // Need to delete at the end
+    // Student Sample
     Student *studentNode1 = new Student("f1", "l1", "FPEP", "HM00", 2012, 1);
     Student *studentNode2 = new Student("f2", "l2", "FPEP", "HM07", 2011, 2);
     Student *studentNode3 = new Student("f3", "l3", "FKJ", "HL64", 2012, 3);
@@ -40,6 +39,7 @@ int main()
     studentList->addNode(studentNode10);
     studentList->addNode(studentNode11);
 
+    // Course Sample
     Course *courseNode1 = new Course("HC01", "Course1", 1.5);
     courseNode1->setStudentId(studentNode1->getId());
     courseList->addNode(courseNode1);
@@ -60,9 +60,5 @@ int main()
     mainMenu(studentList, courseList);
 
     std::cout << "End Program\n";
-
-    // Test function. Need to deleted at the end
-    studentList->print();
-    courseList->print(studentNode1->getId());
     return 0;
 }
